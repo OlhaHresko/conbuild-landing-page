@@ -1126,7 +1126,7 @@ section {
   justify-content: center;
   align-items: center;
   left: 50%;
-  top: 153px;
+  top: 50%;
 
   width: 82px;
   height: 82px;
@@ -1135,7 +1135,7 @@ section {
 
   cursor: pointer;
 
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
 }
 
 .projects-item-button {
@@ -1194,7 +1194,7 @@ section {
   flex-direction: column;
   justify-content: end;
 
-  width: 623px;
+  width: 100%;
   height: 443px;
   padding: 30px;
 
@@ -3134,6 +3134,8 @@ input[type="checkbox"] {
   }
 }
 
+/* --------- DESKTOP (1601-1750) --------- */
+
 @media (min-width: 1601px) and (max-width: 1750px) {
   .header-container {
     width: 94vw;
@@ -3157,6 +3159,10 @@ input[type="checkbox"] {
 
   .front-loader {
     left: 450px;
+  }
+
+  .projects-name {
+    font-size: 26px;
   }
 }
 
@@ -3193,6 +3199,25 @@ input[type="checkbox"] {
 
   .front-loader {
     left: 300px;
+  }
+
+  .status {
+    margin-bottom: 120px;
+  }
+
+  .projects-item-content {
+    height: 410px;
+    padding: 26px;
+  }
+
+  .projects-type {
+    margin-bottom: 16px;
+  }
+
+  .projects-name {
+    padding: 14px 20px;
+
+    font-size: 26px;
   }
 }
 
@@ -3344,6 +3369,21 @@ input[type="checkbox"] {
   .status-descr {
     font-size: 22px;
   }
+
+  .projects-item-content {
+    height: 360px;
+    padding: 20px;
+  }
+
+  .projects-type {
+    margin-bottom: 10px;
+  }
+
+  .projects-name {
+    padding: 12px 18px;
+
+    font-size: 22px;
+  }
 }
 
 /* --------- DESKTOP (993-1200) --------- */
@@ -3472,7 +3512,7 @@ input[type="checkbox"] {
   .section-title {
     font-size: 40px;
   }
-
+  
   .container.container-about {
     margin-bottom: 100px;
   }
@@ -3487,6 +3527,34 @@ input[type="checkbox"] {
 
   .status-descr {
     font-size: 20px;
+  }
+
+  .projects-item-content {
+    height: 320px;
+    padding: 20px;
+  }
+
+  .projects-type {
+    margin-bottom: 6px;
+    padding: 2px 10px;
+
+    font-size: 14px;
+  }
+
+  .projects-name {
+    padding: 12px 18px;
+
+    font-size: 18px;
+  }
+
+  .projects-item-button-container {
+    width: 66px;
+    height: 66px;
+  }
+
+  .projects-item-button {
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -4375,7 +4443,7 @@ input[type="checkbox"] {
 
   .about::before {
     background-image: none;
-    
+
     pointer-events: none;
   }
 

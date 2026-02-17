@@ -950,10 +950,6 @@ section {
 
 /* --------- STATUS --------- */
 
-.status {
-  margin-bottom: 143px;
-}
-
 .status-text {
   display: flex;
   flex-direction: column;
@@ -3201,10 +3197,6 @@ input[type="checkbox"] {
     left: 300px;
   }
 
-  .status {
-    margin-bottom: 120px;
-  }
-
   .projects-item-content {
     height: 410px;
     padding: 26px;
@@ -3769,6 +3761,13 @@ input[type="checkbox"] {
     display: flex;
   }
 
+  .about::before {
+    display: none;
+    height: 0;
+
+    pointer-events: none;
+  }
+
   .about-upper-block {
     gap: 50px;
 
@@ -3808,6 +3807,38 @@ input[type="checkbox"] {
 
   .status-descr {
     font-size: 18px;
+  }
+
+  .container.container-projects {
+    margin-bottom: 50px;
+  }
+
+  .projects-item-content {
+    height: 320px;
+    padding: 20px;
+  }
+
+  .projects-type {
+    margin-bottom: 6px;
+    padding: 0 4px;
+
+    font-size: 14px;
+  }
+
+  .projects-name {
+    padding: 4px 6px;
+
+    font-size: 16px;
+  }
+
+  .projects-item-button-container {
+    width: 66px;
+    height: 66px;
+  }
+
+  .projects-item-button {
+    width: 50px;
+    height: 50px;
   }
 }
 

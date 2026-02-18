@@ -398,6 +398,17 @@ const swiper3 = new Swiper(".swiper-3", {
     nextEl: ".swiper-button-next.projects-button",
     prevEl: ".swiper-button-prev.projects-button",
   },
+  breakpoints: {
+    0: {
+      slidesPerView: 1
+    },
+    577: {
+      slidesPerView: 2
+    },
+    769: {
+      slidesPerView: 3
+    },
+  },
   on: {
     slideChange: function () {
       updateHoverSlide(this);

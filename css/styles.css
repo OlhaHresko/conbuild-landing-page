@@ -4019,6 +4019,37 @@ input[type="checkbox"] {
   .testimonials-hr {
     width: 40%;
   }
+
+  .team-container {
+    gap: 14px;
+  }
+
+  .team-descr {
+    font-size: 14px;
+  }
+
+  .team-image {
+    min-width: 280px;
+    height: 369px;
+  }
+
+  .team-members {
+    min-width: 168px;
+  }
+
+  .team-member-name {
+    margin-bottom: 0;
+
+    font-size: 18px;
+  }
+
+  .team-member-name.active {
+    font-size: 20px;
+  }
+
+  .team-member-position {
+    font-size: 14px;
+  }
 }
 
 /* --------- MOBILE (<769) --------- */

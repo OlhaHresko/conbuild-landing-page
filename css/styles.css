@@ -1415,7 +1415,9 @@ iframe {
 }
 
 .testimonials-main-left {
-  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   min-width: 0;
   padding-right: 30px;
@@ -3961,6 +3963,10 @@ input[type="checkbox"] {
     height: 53px;
   }
 
+  .testimonials-photos {
+    margin-left: 50px;
+  }
+
   .testimonials-hr {
     width: 40%;
   }
@@ -4302,6 +4308,53 @@ input[type="checkbox"] {
   .custom-play-icon {
     width: 16px;
     height: 24px;
+  }
+
+  .testimonials-main {
+    margin-bottom: 36px;
+  }
+  
+  .testimonials-main-left {
+    padding-right: 14px;
+  }
+
+  .testimonials-text {
+    max-width: 380px;
+  }
+
+  .testimonials-review {
+    padding-top: 40px;
+
+    font-size: 18px;
+  }
+
+  .testimonials-persons-block {
+    gap: 16px;
+  }
+
+  .testimonials-name {
+    font-size: 20px;
+  }
+
+  .testimonials-role {
+    font-size: 14px;
+  }
+
+  .testimonials-quote-line {
+    flex-shrink: 0;
+  }
+
+  .testimonials-quote {
+    width: 54px;
+    height: 39px;
+  }
+
+  .testimonials-photos {
+    margin-left: 14px;
+  }
+
+  .testimonials-hr {
+    width: 43%;
   }
 }
 
@@ -4754,5 +4807,69 @@ input[type="checkbox"] {
   .custom-play-icon {
     width: 12px;
     height: 17px;
+  }
+
+  .testimonials-main {
+    margin-bottom: 36px;
+  }
+
+  .testimonials::before {
+    display: none;
+    pointer-events: none;
+  }
+
+  .testimonials-main-left {
+    padding-right: 8px;
+  }
+
+  .testimonials-text {
+    max-width: 300px;
+  }
+
+  .testimonials-review {
+    padding-top: 30px;
+
+    font-size: 16px;
+  }
+
+  .testimonials-persons-block {
+    gap: 8px;
+  }
+
+  .testimonials-name {
+    font-size: 16px;
+  }
+
+  .testimonials-role {
+    font-size: 12px;
+  }
+
+  .testimonials-quote-line {
+    flex-shrink: 0;
+  }
+
+  .testimonials-quote {
+    width: 30px;
+    height: 22px;
+  }
+
+  .testimonials-photos {
+    width: 60px;
+    margin-left: 8px;
+  }
+
+  .testimonials-photo {
+    width: 48px;
+    height: 48px;
+  }
+
+  .testimonials-photo.active {
+    width: 60px;
+    height: 60px;
+
+  }
+
+  .testimonials-hr {
+    width: 57%;
   }
 }

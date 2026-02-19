@@ -3376,6 +3376,15 @@ input[type="checkbox"] {
 
     font-size: 22px;
   }
+
+  .swiper.swiper-3 {
+    margin-bottom: 120px;
+  }
+
+  .custom-play-button {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 /* --------- DESKTOP (993-1200) --------- */
@@ -3504,7 +3513,7 @@ input[type="checkbox"] {
   .section-title {
     font-size: 40px;
   }
-  
+
   .container.container-about {
     margin-bottom: 100px;
   }
@@ -3547,6 +3556,28 @@ input[type="checkbox"] {
   .projects-item-button {
     width: 50px;
     height: 50px;
+  }
+
+  .swiper.swiper-3 {
+    margin-bottom: 100px;
+  }
+
+  .process-list {
+    gap: 18px;
+
+    margin-bottom: 70px;
+  }
+
+  .process-button {
+    width: calc((100% - 36px) / 3);
+    height: 70px;
+
+    font-size: 20px;
+  }
+
+  .custom-play-button {
+    width: 90px;
+    height: 90px;
   }
 }
 
@@ -3839,6 +3870,10 @@ input[type="checkbox"] {
   .projects-item-button {
     width: 50px;
     height: 50px;
+  }
+
+  .swiper.swiper-3 {
+    margin-bottom: 80px;
   }
 }
 
@@ -4142,6 +4177,10 @@ input[type="checkbox"] {
     padding: 4px 6px;
 
     font-size: 16px;
+  }
+
+  .swiper.swiper-3 {
+    margin-bottom: 70px;
   }
 }
 
@@ -4545,5 +4584,9 @@ input[type="checkbox"] {
     padding: 4px 6px;
 
     font-size: 18px;
+  }
+
+  .swiper.swiper-3 {
+    margin-bottom: 50px;
   }
 }

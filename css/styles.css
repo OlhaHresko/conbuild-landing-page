@@ -574,6 +574,8 @@ section {
 }
 
 .section-title {
+  background-color: var(--bg-color);
+
   color: var(--dark);
   font-family: "Jost", sans-serif;
   font-size: 52px;
@@ -1229,7 +1231,9 @@ section {
 }
 
 .section-title.process-title {
-  margin-bottom: 37px;
+  width: fit-content;
+  padding: 0 10px;
+  margin: 0 auto 37px;
 }
 
 .process-list {
@@ -1303,6 +1307,7 @@ section {
 
 .process-video-wrapper {
   position: relative;
+  z-index: 10;
 
   width: 100%;
   aspect-ratio: 21/9;
@@ -1445,6 +1450,9 @@ iframe {
 }
 
 .testimonials-quote {
+  width: 86px;
+  height: 62px;
+
   fill: var(--dark);
   stroke: var(--dark);
 }
@@ -1514,7 +1522,7 @@ iframe {
   position: absolute;
   bottom: -2px;
 
-  width: 526px;
+  width: 36%;
   height: 3px;
 
   background-color: var(--dark);
@@ -3594,6 +3602,10 @@ input[type="checkbox"] {
     height: 90px;
   }
 
+  .testimonials-text {
+    max-width: 560px;
+  }
+
   .testimonials-review {
     font-size: 22px;
   }
@@ -3918,6 +3930,39 @@ input[type="checkbox"] {
   .custom-play-button {
     width: 80px;
     height: 80px;
+  }
+
+  .testimonials-text {
+    max-width: 440px;
+  }
+
+  .testimonials-review {
+    font-size: 22px;
+  }
+
+  .testimonials-persons-block {
+    gap: 26px;
+  }
+
+  .testimonials-name {
+    font-size: 26px;
+  }
+
+  .testimonials-role {
+    font-size: 18px;
+  }
+
+  .testimonials-quote-line {
+    flex-shrink: 0;
+  }
+
+  .testimonials-quote {
+    width: 74px;
+    height: 53px;
+  }
+
+  .testimonials-hr {
+    width: 40%;
   }
 }
 

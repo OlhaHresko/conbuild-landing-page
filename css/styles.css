@@ -1777,6 +1777,9 @@ iframe {
   top: 0;
   left: 0;
 
+  width: 50px;
+  height: 50px;
+
   fill: var(--dark);
 }
 
@@ -4055,6 +4058,8 @@ input[type="checkbox"] {
 
   .team-container {
     gap: 14px;
+
+    margin-bottom: 40px;
   }
 
   .team-descr {
@@ -4081,6 +4086,76 @@ input[type="checkbox"] {
   }
 
   .team-member-position {
+    font-size: 14px;
+  }
+
+  .pricing-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+
+  .section-title.pricing-title {
+    margin-bottom: 40px;
+  }
+
+  .pricing-list {
+    gap: 12px;
+  }
+
+  .pricing-item {
+    width: calc((100% - 24px) / 3);
+    padding: 44px 20px 44px;
+  }
+
+  .price-line {
+    margin-bottom: 8px;
+  }
+  
+  .price {
+    font-size: 24px;
+  }
+  
+  .price-span {
+    font-size: 14px;
+  }
+
+  .price-tariff {
+    gap: 10px;
+
+    margin-bottom: 20px;
+  }
+
+  .price-tariff > span {
+    font-size: 14px;
+  }
+
+  .pricing-features {
+    gap: 0;
+  
+    padding-top: 16px;
+    margin-bottom: 26px;
+  }
+  
+  .pricing-feature {
+    padding-left: 12px;
+  
+    font-size: 14px;
+    line-height: 2;
+  }
+  
+  .pricing-rectangle {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .pricing-special {
+    top: 8px;
+    right: 8px;
+  
+    width: 80px;
+    height: 25px;
+
     font-size: 14px;
   }
 }

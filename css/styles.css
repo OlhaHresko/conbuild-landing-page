@@ -4111,11 +4111,11 @@ input[type="checkbox"] {
   .price-line {
     margin-bottom: 8px;
   }
-  
+
   .price {
     font-size: 24px;
   }
-  
+
   .price-span {
     font-size: 14px;
   }
@@ -4132,27 +4132,27 @@ input[type="checkbox"] {
 
   .pricing-features {
     gap: 0;
-  
+
     padding-top: 16px;
     margin-bottom: 26px;
   }
-  
+
   .pricing-feature {
     padding-left: 12px;
-  
+
     font-size: 14px;
     line-height: 2;
   }
-  
+
   .pricing-rectangle {
     width: 40px;
     height: 40px;
   }
-  
+
   .pricing-special {
     top: 8px;
     right: 8px;
-  
+
     width: 80px;
     height: 25px;
 
@@ -4163,54 +4163,9 @@ input[type="checkbox"] {
 /* --------- MOBILE (<769) --------- */
 
 @media (max-width: 768px) {
-  .front-loader {
-    display: none;
-  }
-
-  .crane {
-    display: none;
-  }
-
-  .container.container-projects {
-    margin-bottom: 50px;
-  }
-
-  .projects-item-content {
-    height: 320px;
-    padding: 20px;
-  }
-
-  .projects-type {
-    margin-bottom: 8px;
-    padding: 0 4px;
-
-    font-size: 14px;
-  }
-
-  .projects-item-button-container {
-    width: 66px;
-    height: 66px;
-  }
-
-  .projects-item-button {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .process-video-wrapper {
-    aspect-ratio: 16/9;
-  }
-}
-
-/* --------- MOBILE (577-768) --------- */
-
-@media (min-width: 577px) and (max-width: 768px) {
   .container {
     margin-bottom: 70px;
     padding: 0 25px;
-  }
-  .logo-descr {
-    display: none;
   }
 
   .header-container {
@@ -4219,6 +4174,10 @@ input[type="checkbox"] {
 
   .logo {
     flex: 0.4;
+  }
+
+  .logo-descr {
+    display: none;
   }
 
   .logo-background {
@@ -4364,6 +4323,14 @@ input[type="checkbox"] {
     font-size: 14px;
   }
 
+  .front-loader {
+    display: none;
+  }
+
+  .crane {
+    display: none;
+  }
+
   .container-services {
     gap: 25px;
   }
@@ -4385,6 +4352,10 @@ input[type="checkbox"] {
   .swiper-slide.swiper-first {
     width: 200px;
     height: 100%;
+  }
+
+  .container.container-about {
+    margin-bottom: 70px;
   }
 
   .about-swiper-content {
@@ -4433,10 +4404,6 @@ input[type="checkbox"] {
     padding: 21px 10px;
   }
 
-  .container.container-about {
-    margin-bottom: 70px;
-  }
-
   .section-title.status-title {
     margin-bottom: 38px;
   }
@@ -4458,6 +4425,32 @@ input[type="checkbox"] {
 
   .status-descr {
     font-size: 18px;
+  }
+
+  .container.container-projects {
+    margin-bottom: 50px;
+  }
+
+  .projects-item-content {
+    height: 320px;
+    padding: 20px;
+  }
+
+  .projects-type {
+    margin-bottom: 8px;
+    padding: 0 4px;
+
+    font-size: 14px;
+  }
+
+  .projects-item-button-container {
+    width: 66px;
+    height: 66px;
+  }
+
+  .projects-item-button {
+    width: 50px;
+    height: 50px;
   }
 
   .projects-name {
@@ -4488,6 +4481,10 @@ input[type="checkbox"] {
     font-size: 16px;
   }
 
+  .process-video-wrapper {
+    aspect-ratio: 16/9;
+  }
+
   .custom-play-button {
     width: 70px;
     height: 70px;
@@ -4501,7 +4498,7 @@ input[type="checkbox"] {
   .testimonials-main {
     margin-bottom: 36px;
   }
-  
+
   .testimonials-main-left {
     padding-right: 14px;
   }
@@ -4545,22 +4542,6 @@ input[type="checkbox"] {
     width: 43%;
   }
 
-  .team-container {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 14px;
-
-    margin-bottom: 35px;
-  }
-
-  .team-text {
-    width: 100%;
-    max-width: 100%;
-    padding-bottom: 28px;
-    
-    text-align: center;
-  }
-
   .team-text > .button {
     margin: 0 auto;
   }
@@ -4574,6 +4555,28 @@ input[type="checkbox"] {
     margin: 0 auto 9px;
   }
 
+  .team-image {
+    min-width: 280px;
+    max-width: 300px;
+    height: 369px;
+  }
+
+  .team-container {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+
+    margin-bottom: 35px;
+  }
+
+  .team-text {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 28px;
+
+    text-align: center;
+  }
+
   .team-descr {
     max-width: 100%;
     margin-bottom: 30px;
@@ -4581,12 +4584,6 @@ input[type="checkbox"] {
     background-color: var(--bg-color);
 
     font-size: 14px;
-  }
-
-  .team-image {
-    min-width: 280px;
-    max-width: 300px;
-    height: 369px;
   }
 
   .team-members {
@@ -4630,11 +4627,11 @@ input[type="checkbox"] {
   .price-line {
     margin-bottom: 8px;
   }
-  
+
   .price {
     font-size: 24px;
   }
-  
+
   .price-span {
     font-size: 14px;
   }
@@ -4651,14 +4648,14 @@ input[type="checkbox"] {
 
   .pricing-features {
     gap: 0;
-  
+
     padding-top: 16px;
     margin-bottom: 20px;
   }
-  
+
   .pricing-feature {
     padding-left: 12px;
-  
+
     font-size: 14px;
     line-height: 2;
   }
@@ -4666,16 +4663,16 @@ input[type="checkbox"] {
   .pricing-button {
     padding: 10px;
   }
-  
+
   .pricing-rectangle {
     width: 40px;
     height: 40px;
   }
-  
+
   .pricing-special {
     top: 8px;
     right: 8px;
-  
+
     width: 80px;
     height: 25px;
 
@@ -4699,15 +4696,6 @@ input[type="checkbox"] {
     height: 57px;
   }
 
-  .logo-pic {
-    width: 40px;
-    height: auto;
-  }
-
-  .logo-descr {
-    display: none;
-  }
-
   .header-container {
     justify-content: space-between;
 
@@ -4719,13 +4707,14 @@ input[type="checkbox"] {
     display: flex;
     justify-content: start;
     align-items: center;
-    flex: 0.4;
 
     height: 57px;
     padding: 0;
   }
 
   .logo-pic {
+    width: 40px;
+    height: auto;
     padding: 3px;
 
     border-radius: 50%;
@@ -4758,14 +4747,10 @@ input[type="checkbox"] {
   }
 
   .upper-header {
-    position: relative;
-    justify-content: end;
     gap: 20px;
 
     height: 57px;
     padding-right: 15px;
-
-    border: none;
   }
 
   .upper-header::after {
@@ -4804,72 +4789,14 @@ input[type="checkbox"] {
     right: -1px;
     flex-direction: column;
     align-items: end;
-    justify-content: end;
-    gap: 18px;
 
     padding: 10px 30px 30px;
 
     background-color: var(--dark);
   }
 
-  .nav-link {
-    font-size: 14px;
-  }
-
   .nav-link.active::after {
     display: none;
-  }
-
-  .nav-link.active::after {
-    bottom: -35px;
-  }
-
-  .phone-icon-frame {
-    display: none;
-  }
-
-  .phone-text-cta {
-    color: var(--accent);
-  }
-
-  .contacts-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 30px;
-    height: 30px;
-
-    cursor: pointer;
-  }
-
-  .contacts-item > svg {
-    width: 18px;
-    height: 18px;
-  }
-
-  .contacts-text {
-    display: none;
-  }
-
-  .contacts-item.active .contacts-text {
-    display: block;
-  }
-
-  .contacts-item {
-    transition: width 0.3s ease;
-  }
-
-  .contacts-item.active {
-    width: fit-content;
-  }
-
-  .phone {
-    display: none;
-  }
-
-  .contacts-item-phone {
-    display: flex;
   }
 
   .socials-icon:hover {
@@ -4881,16 +4808,7 @@ input[type="checkbox"] {
   }
 
   .hero {
-    margin-bottom: 0;
     padding-bottom: 50px;
-  }
-
-  .hero-wrapper {
-    background-position:
-      bottom -90px left -90px,
-      bottom -90px left -90px,
-      center,
-      center;
   }
 
   .hero-container {
@@ -4915,20 +4833,14 @@ input[type="checkbox"] {
 
   .hero-title {
     margin-bottom: 12px;
-    font-size: 38px;
   }
 
   .hero-descr {
     max-width: 80vw;
-    margin-bottom: 30px;
     margin: 0 auto 24px;
-
-    font-size: 12px;
   }
 
   .hero-portrait {
-    width: 280px;
-    height: 316px;
     margin: 0 auto;
 
     background-position: bottom center;
@@ -4936,8 +4848,6 @@ input[type="checkbox"] {
 
   .button {
     padding: 12px 20px;
-
-    font-size: 14px;
   }
 
   .container-services {
@@ -4948,8 +4858,6 @@ input[type="checkbox"] {
 
   .services-text {
     width: 100%;
-
-    background-image: none;
   }
 
   .services-text > .button {
@@ -4960,14 +4868,8 @@ input[type="checkbox"] {
     margin-bottom: 12px;
   }
 
-  .section-title {
-    font-size: 30px;
-  }
-
   .section-descr {
     margin-bottom: 20px;
-
-    font-size: 14px;
   }
 
   .swiper.swiper-1 {
@@ -4975,13 +4877,21 @@ input[type="checkbox"] {
     height: 418px;
   }
 
-  .swiper-slide.swiper-first {
-    width: 200px;
-    height: 100%;
+  .about {
+    background-image: none;
+  }
+
+  .about::before {
+    background-image: none;
+
+    pointer-events: none;
+  }
+
+  .container.container-about {
+    margin-bottom: 50px;
   }
 
   .about-swiper-content {
-    position: absolute;
     top: 90px;
     left: 50%;
 
@@ -4990,20 +4900,10 @@ input[type="checkbox"] {
     transform: translateX(-50%);
   }
 
-  .swiper-second-name {
-    font-size: 22px;
-  }
-
   .swiper-second-points {
-    font-size: 14px;
-  }
-
-  .points-visible {
-    top: 30px;
-  }
-
-  .points-show {
     display: flex;
+
+    font-size: 14px;
   }
 
   .about-upper-block {
@@ -5011,7 +4911,6 @@ input[type="checkbox"] {
     gap: 12px;
 
     width: 100%;
-    margin-bottom: 40px;
   }
 
   .about-right-block {
@@ -5032,8 +4931,6 @@ input[type="checkbox"] {
   .about-text {
     width: 100%;
     margin-top: 0;
-
-    font-size: 14px;
   }
 
   .swiper-wrapper.swiper-second {
@@ -5042,22 +4939,6 @@ input[type="checkbox"] {
 
   .swiper-slide.swiper-second {
     width: 100%;
-    height: 332px;
-    padding: 21px 10px;
-  }
-
-  .about {
-    background-image: none;
-  }
-
-  .about::before {
-    background-image: none;
-
-    pointer-events: none;
-  }
-
-  .container.container-about {
-    margin-bottom: 50px;
   }
 
   .section-title.status-title {
@@ -5065,8 +4946,6 @@ input[type="checkbox"] {
   }
 
   .status-list {
-    margin: 0 auto;
-    flex-wrap: wrap;
     gap: 10px;
   }
 
@@ -5088,17 +4967,11 @@ input[type="checkbox"] {
   }
 
   .projects-name {
-    padding: 4px 6px;
-
     font-size: 18px;
   }
 
   .swiper.swiper-3 {
     margin-bottom: 50px;
-  }
-
-  .process {
-    background-image: none;
   }
 
   .section-name.process-name {
@@ -5119,9 +4992,6 @@ input[type="checkbox"] {
   .process-button {
     width: 100%;
     height: 40px;
-    padding: 0 6px;
-
-    font-size: 16px;
   }
 
   .custom-play-button {
@@ -5132,10 +5002,6 @@ input[type="checkbox"] {
   .custom-play-icon {
     width: 12px;
     height: 17px;
-  }
-
-  .testimonials-main {
-    margin-bottom: 36px;
   }
 
   .testimonials::before {
@@ -5169,10 +5035,6 @@ input[type="checkbox"] {
     font-size: 12px;
   }
 
-  .testimonials-quote-line {
-    flex-shrink: 0;
-  }
-
   .testimonials-quote {
     width: 30px;
     height: 22px;
@@ -5191,7 +5053,6 @@ input[type="checkbox"] {
   .testimonials-photo.active {
     width: 60px;
     height: 60px;
-
   }
 
   .testimonials-hr {
@@ -5204,43 +5065,11 @@ input[type="checkbox"] {
   }
 
   .team-container {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 14px;
-
     margin-bottom: 25px;
   }
 
   .team-text {
     order: 1;
-
-    width: 100%;
-    max-width: 100%;
-    padding-bottom: 28px;
-    
-    text-align: center;
-  }
-
-  .team-text > .button {
-    margin: 0 auto;
-  }
-
-  .section-name.team-section-name {
-    background-color: var(--bg-color);
-  }
-
-  .section-title.team-title {
-    width: fit-content;
-    margin: 0 auto 9px;
-  }
-
-  .team-descr {
-    max-width: 100%;
-    margin-bottom: 30px;
-
-    background-color: var(--bg-color);
-
-    font-size: 14px;
   }
 
   .team-images {
@@ -5249,7 +5078,6 @@ input[type="checkbox"] {
 
   .team-image {
     max-width: 100%;
-    height: 369px;
     margin-top: 20px;
   }
 
@@ -5268,18 +5096,10 @@ input[type="checkbox"] {
   }
 
   .team-member-name {
-    margin-bottom: 0;
-
-    font-size: 18px;
     text-align: center;
   }
 
-  .team-member-name.active {
-    font-size: 20px;
-  }
-
   .team-member-position {
-    font-size: 14px;
     text-align: center;
   }
 
@@ -5305,60 +5125,5 @@ input[type="checkbox"] {
   .pricing-item {
     width: 100%;
     padding: 40px 30px 40px;
-  }
-
-  .price-line {
-    margin-bottom: 8px;
-  }
-  
-  .price {
-    font-size: 24px;
-  }
-  
-  .price-span {
-    font-size: 14px;
-  }
-
-  .price-tariff {
-    gap: 10px;
-
-    margin-bottom: 20px;
-  }
-
-  .price-tariff > span {
-    font-size: 14px;
-  }
-
-  .pricing-features {
-    gap: 0;
-  
-    padding-top: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .pricing-feature {
-    padding-left: 12px;
-  
-    font-size: 14px;
-    line-height: 2;
-  }
-
-  .pricing-button {
-    padding: 10px;
-  }
-  
-  .pricing-rectangle {
-    width: 40px;
-    height: 40px;
-  }
-  
-  .pricing-special {
-    top: 8px;
-    right: 8px;
-  
-    width: 80px;
-    height: 25px;
-
-    font-size: 14px;
   }
 }

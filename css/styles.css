@@ -4549,6 +4549,8 @@ input[type="checkbox"] {
     justify-content: center;
     flex-wrap: wrap;
     gap: 14px;
+
+    margin-bottom: 35px;
   }
 
   .team-text {
@@ -4603,6 +4605,80 @@ input[type="checkbox"] {
   }
 
   .team-member-position {
+    font-size: 14px;
+  }
+
+  .pricing-container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+  }
+
+  .section-title.pricing-title {
+    margin-bottom: 35px;
+  }
+
+  .pricing-list {
+    gap: 12px;
+  }
+
+  .pricing-item {
+    width: calc((100% - 24px) / 3);
+    padding: 40px 10px 35px;
+  }
+
+  .price-line {
+    margin-bottom: 8px;
+  }
+  
+  .price {
+    font-size: 24px;
+  }
+  
+  .price-span {
+    font-size: 14px;
+  }
+
+  .price-tariff {
+    gap: 10px;
+
+    margin-bottom: 20px;
+  }
+
+  .price-tariff > span {
+    font-size: 14px;
+  }
+
+  .pricing-features {
+    gap: 0;
+  
+    padding-top: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-feature {
+    padding-left: 12px;
+  
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .pricing-button {
+    padding: 10px;
+  }
+  
+  .pricing-rectangle {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .pricing-special {
+    top: 8px;
+    right: 8px;
+  
+    width: 80px;
+    height: 25px;
+
     font-size: 14px;
   }
 }
@@ -5131,6 +5207,8 @@ input[type="checkbox"] {
     justify-content: center;
     flex-wrap: wrap;
     gap: 14px;
+
+    margin-bottom: 25px;
   }
 
   .team-text {
@@ -5203,5 +5281,84 @@ input[type="checkbox"] {
   .team-member-position {
     font-size: 14px;
     text-align: center;
+  }
+
+  .pricing {
+    background-repeat: repeat;
+  }
+
+  .pricing-container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  }
+
+  .section-title.pricing-title {
+    margin-bottom: 25px;
+  }
+
+  .pricing-list {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .pricing-item {
+    width: 100%;
+    padding: 40px 30px 40px;
+  }
+
+  .price-line {
+    margin-bottom: 8px;
+  }
+  
+  .price {
+    font-size: 24px;
+  }
+  
+  .price-span {
+    font-size: 14px;
+  }
+
+  .price-tariff {
+    gap: 10px;
+
+    margin-bottom: 20px;
+  }
+
+  .price-tariff > span {
+    font-size: 14px;
+  }
+
+  .pricing-features {
+    gap: 0;
+  
+    padding-top: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-feature {
+    padding-left: 12px;
+  
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .pricing-button {
+    padding: 10px;
+  }
+  
+  .pricing-rectangle {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .pricing-special {
+    top: 8px;
+    right: 8px;
+  
+    width: 80px;
+    height: 25px;
+
+    font-size: 14px;
   }
 }

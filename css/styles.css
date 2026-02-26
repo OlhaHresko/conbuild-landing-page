@@ -1839,6 +1839,8 @@ iframe {
 
 .blog-main-article-pic-wrapper {
   position: relative;
+
+  min-width: 0;
 }
 
 .blog-main-article-date {
@@ -1863,15 +1865,19 @@ iframe {
 }
 
 .blog-main-article-pic {
-  width: 636px;
+  width: 100%;
+  max-width: 636px;
   height: 361px;
 
   background-color: var(--light);
+
+  object-fit: cover;
 }
 
 .blog-main-article-text {
+  max-width: 459px;
+  min-width: 0;
   padding-top: 20px;
-  width: 459px;
 }
 
 .blog-descr {
@@ -1978,7 +1984,7 @@ iframe {
   z-index: 10;
 
   width: calc((100% - 48px) / 3);
-  height: 526px;
+  min-height: 526px;
   padding: 30px 30px 23px;
 
   border: 1px solid var(--light-text);
@@ -3404,6 +3410,14 @@ input[type="checkbox"] {
     padding-bottom: 60px;
     margin-bottom: 60px;
   }
+
+  .blog-main-article {
+    gap: 90px;
+  }
+
+  .blog-article-title {
+    font-size: 22px;
+  }
 }
 
 /* --------- DESKTOP (<1200) --------- */
@@ -3636,6 +3650,27 @@ input[type="checkbox"] {
 
   .pricing-item {
     padding: 44px 30px 44px;
+  }
+
+  .section-title.status-title {
+    margin-bottom: 40px;
+  }
+
+  .blog-main-article {
+    gap: 80px;
+  }
+
+  .blog-main-article-date {
+    width: 100px;
+    height: 96px;
+    padding: 12px 15px 16px;
+
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .blog-article-title {
+    font-size: 20px;
   }
 }
 

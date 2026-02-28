@@ -1936,7 +1936,7 @@ iframe {
 }
 
 .blog-main-article-paragraph {
-  width: 419px;
+  max-width: 419px;
   margin-bottom: 22px;
 }
 
@@ -4062,6 +4062,10 @@ input[type="checkbox"] {
   margin-bottom: 36px;
 }
 
+.blog-main-article-paragraph {
+  font-size: 14px;
+}
+
 .blog-article {
   width: calc((100% - 20px) / 3);
   padding: 14px 14px 14px;
@@ -4313,6 +4317,70 @@ input[type="checkbox"] {
 
   .pricing-button {
     padding: 10px;
+  }
+
+  .blog::before {
+    background-image: none;
+
+    pointer-events: none;
+  }
+
+  .blog-main-article {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .blog-main-article-pic-wrapper {
+    order: -1;
+  }
+
+  .blog-main-article-date {
+    left: 10px;
+    transform: translateX(0%);
+  }
+
+  .blog-main-article-text {
+    max-width: 100%;
+  }
+
+  .blog-author {
+    font-size: 14px;
+  }
+
+  .blog-theme {
+    font-size: 14px;
+  }
+
+  .blog-main-article-paragraph {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+
+  .blog-list {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .blog-article {
+    display: flex;
+    gap: 20px;
+
+    width: 100%;
+    min-height: 0;
+    max-height: fit-content;
+
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+
+    transition:
+      border var(--transition),
+      box-shadow var(--transition);
+  }
+
+  .blog-article-pic {
+    width: 35%;
+    height: 200px;
+    margin-bottom: 0;
   }
 }
 
@@ -4636,6 +4704,7 @@ input[type="checkbox"] {
 
   .testimonials::before {
     display: none;
+
     pointer-events: none;
   }
 
@@ -4769,5 +4838,58 @@ input[type="checkbox"] {
 
   .pricing-button {
     margin: 0 auto;
+  }
+
+  .blog-main-article-date {
+    width: 80px;
+    height: 77px;
+
+    font-size: 15px;
+  }
+
+  .blog-main-article-pic {
+    height: 300px;
+  }
+
+  .blog-list {
+    margin-bottom: 30px;
+  }
+
+  .blog-article {
+    gap: 8px;
+
+    padding: 8px;
+  }
+
+  .blog-article .blog-author {
+    margin-right: 20px;
+  }
+
+.blog-article .blog-author::before {
+    left: -15px;
+
+    width: 10px;
+    height: 1px;
+  }
+
+  .blog-article .blog-theme::before {
+    left: -15px;
+  }
+
+.blog-article .blog-descr {
+  padding-left: 14px;
+}
+
+  .blog-article-title {
+    font-size: 16px;
+  }
+
+  .blog-article-pic {
+    width: 40%;
+    height: 160px;
+  }
+
+  .blog-button-listed {
+    font-size: 14px;
   }
 }

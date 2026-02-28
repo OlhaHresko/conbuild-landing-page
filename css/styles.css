@@ -1679,6 +1679,8 @@ iframe {
 }
 
 .pricing-item {
+  container-type: inline-size;
+
   position: relative;
 
   width: calc((100% - 48px) / 3);
@@ -4753,10 +4755,19 @@ input[type="checkbox"] {
 
   .pricing-item {
     width: 100%;
-    padding: 40px 30px 40px;
+    padding: 40px 20px 40px;
+  }
+
+  @container (min-width: 428px) and (max-width: 546px) {
+    .pricing-features {
+      flex-wrap: wrap;
+      column-gap: 6px;
+
+      height: 102px;
+    }
   }
 
   .pricing-button {
-    margin-left: auto;
+    margin: 0 auto;
   }
 }

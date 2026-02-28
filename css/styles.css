@@ -4053,6 +4053,17 @@ input[type="checkbox"] {
 
     font-size: 14px;
   }
+  
+  .blog-list {
+  gap: 10px;
+
+  margin-bottom: 36px;
+}
+
+.blog-article {
+  width: calc((100% - 20px) / 3);
+  padding: 14px 14px 14px;
+}
 }
 
 /* --------- MOBILE (<769) --------- */

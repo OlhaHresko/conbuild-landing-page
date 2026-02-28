@@ -2130,7 +2130,7 @@ iframe {
   top: -92px;
   display: flex;
   flex-direction: row;
-  gap: 257px;
+  justify-content: space-between;
 
   width: calc(100% - 24px);
   height: 184px;
@@ -2162,7 +2162,7 @@ iframe {
 }
 
 .sign-up-input {
-  width: 417px;
+  max-width: 417px;
   height: 45px;
 
   border: none;
@@ -3420,6 +3420,10 @@ input[type="checkbox"] {
   .blog-article-title {
     font-size: 22px;
   }
+
+  .sign-up-wrapper {
+    left: 12px;
+  }
 }
 
 /* --------- DESKTOP (<1200) --------- */
@@ -3673,6 +3677,10 @@ input[type="checkbox"] {
 
   .blog-article-title {
     font-size: 20px;
+  }
+
+  .sign-up-input {
+    min-width: 300px;
   }
 }
 

@@ -4078,6 +4078,18 @@ input[type="checkbox"] {
   width: calc((100% - 20px) / 3);
   padding: 14px 14px 14px;
 }
+
+.sign-up-wrapper {
+  height: fit-content;
+  padding: 45px;
+}
+
+.sign-up-cta {
+  width: fit-content;
+  max-width: 50%;
+
+  font-size: 26px;
+}
 }
 
 /* --------- MOBILE (<769) --------- */

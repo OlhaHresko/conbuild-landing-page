@@ -2158,11 +2158,12 @@ iframe {
 .sign-up-form {
   position: relative;
 
+  width: 38%;
   margin-top: 20px;
 }
 
 .sign-up-input {
-  max-width: 417px;
+  width: 100%;
   height: 45px;
 
   border: none;
@@ -2174,14 +2175,26 @@ iframe {
   font-size: 16px;
 }
 
-.sign-up-input::placeholder {
+.sign-up-label {
+  position: absolute;
+  top: 14px;
+  left: 0;
+
   color: rgba(255, 255, 255, 0.5);
   font-size: 13px;
+
+  pointer-events: none;
+
+  transition: transform var(--transition);
+}
+
+.sign-up-form:has(input:focus) .sign-up-label, .sign-up-form:has(input:not(:placeholder-shown)) .sign-up-label {
+  transform: translateY(-30px);
 }
 
 .sign-up-input:focus {
   outline: none;
-  border-bottom: 1px solid var(--bg-color);
+  border-bottom: 2px solid var(--bg-color);
 }
 
 .sign-up-button {

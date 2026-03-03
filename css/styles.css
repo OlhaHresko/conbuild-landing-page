@@ -25,16 +25,26 @@
   padding: 0;
 }
 
+html {
+  font-size: 100%;
+  color-scheme: light dark;
+  text-size-adjust: none;
+  scrollbar-gutter: stable;
+}
+
 body {
+  min-block-size: 100dvh;
   margin: 0;
-  padding-top: 145px;
 
   background-color: var(--bg-color);
 
   color: var(--dark-text);
   font-family: "Barlow", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.625;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 p,
@@ -104,7 +114,7 @@ section {
 /* --------- HEADER --------- */
 
 .header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   z-index: 1000;
@@ -4490,11 +4500,7 @@ input[type="checkbox"] {
 /* --------- MOBILE (<=576) --------- */
 
 @media (width <= 576px) {
-  body {
-    padding-top: 57px;
-  }
-
-  .container {
+.container {
     margin-bottom: 50px;
     padding: 0 15px;
   }

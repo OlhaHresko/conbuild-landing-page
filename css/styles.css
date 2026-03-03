@@ -138,7 +138,7 @@ section {
 }
 
 .logo-link {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   gap: 3px;
   align-items: center;
@@ -2234,10 +2234,12 @@ iframe {
   width: 407px;
   margin-right: 150px;
 }
+
 .footer-lower > div:nth-child(2) {
   width: 200px;
   margin-right: 20px;
 }
+
 .footer-lower > div:nth-child(3) {
   width: 310px;
   margin-right: 20px;
@@ -3438,6 +3440,10 @@ input[type="checkbox"] {
   .sign-up-wrapper {
     left: 12px;
   }
+
+  .footer-lower {
+    padding-top: 200px;
+  }
 }
 
 /* --------- DESKTOP (<=1200) --------- */
@@ -3695,6 +3701,10 @@ input[type="checkbox"] {
 
   .sign-up-input {
     min-width: 300px;
+  }
+
+  .footer-lower > div:nth-child(1) {
+    margin-right: 50px;
   }
 }
 
@@ -4108,6 +4118,33 @@ input[type="checkbox"] {
 .sign-up-input {
   min-width: 250px;
 }
+
+.footer-lower {
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 70px;
+  column-gap: 20px;
+
+  padding-top: 150px;
+}
+
+.footer-lower > div:nth-child(1) {
+  display: flex;
+  gap: 70px;
+  align-items: start;
+
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .footer-lower > div:not(:nth-child(1)) {
+    width: calc((100% - 70px) / 3);
+    margin-right: 0;
+  }
+
+  .footer-lower > div:nth-child(3) {
+    margin-right: 30px;
+  }
 }
 
 /* --------- MOBILE (<=768) --------- */
@@ -4117,7 +4154,7 @@ input[type="checkbox"] {
     margin-bottom: 70px;
   }
 
-  .logo-descr {
+  .logo-descr-header {
     display: none;
   }
 
@@ -4435,6 +4472,18 @@ input[type="checkbox"] {
 
   .sign-up-input {
     min-width: 200px;
+  }
+
+  .footer-text {
+    width: 300px;
+  }
+
+.footer-lower > div:nth-child(1) {
+  gap: 20px;
+  }
+
+  .footer-lower:not(div:nth-child(1) .logo-link), .footer-rights {
+    font-size: 14px;
   }
 }
 
@@ -4964,4 +5013,28 @@ input[type="checkbox"] {
   .sign-up-input {
     width: 100%;
   }
+
+  .footer-lower {
+    row-gap: 40px;
+  }
+
+.footer-lower > div:nth-child(1) {
+  flex-direction: column;
+  gap: 0;
+  }
+
+  .footer-text {
+    width: 100%;
+    max-width: 500px;
+  }
+
+.footer-lower > div:not(:nth-child(1)) {
+  width: 100%;
+}
+
+.footer-rights {
+  height: 40px;
+
+  font-size: 12px;
+}
 }

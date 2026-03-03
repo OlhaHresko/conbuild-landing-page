@@ -2131,6 +2131,8 @@ iframe {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 
   width: calc(100% - 24px);
   height: 184px;
@@ -2159,7 +2161,6 @@ iframe {
   position: relative;
 
   width: 38%;
-  margin-top: 20px;
 }
 
 .sign-up-input {
@@ -4103,6 +4104,10 @@ input[type="checkbox"] {
 
   font-size: 26px;
 }
+
+.sign-up-input {
+  min-width: 250px;
+}
 }
 
 /* --------- MOBILE (<=768) --------- */
@@ -4414,6 +4419,22 @@ input[type="checkbox"] {
     width: 35%;
     height: 200px;
     margin-bottom: 0;
+  }
+
+  .sign-up-wrapper {
+    padding: 40px 30px;
+  }
+
+  .sign-up-cta {
+    font-size: 20px;
+  }
+
+  .sign-up-form {
+    flex: 1 1 30%;
+  }
+
+  .sign-up-input {
+    min-width: 200px;
   }
 }
 
@@ -4924,5 +4945,23 @@ input[type="checkbox"] {
 
   .blog-button-listed {
     font-size: 14px;
+  }
+
+  .sign-up-wrapper {
+    flex-direction: column;
+  }
+
+  .sign-up-cta {
+    max-width: 100%;
+
+    text-align: center;
+  }
+
+  .sign-up-form {
+    width: 90%;
+  }
+
+  .sign-up-input {
+    width: 100%;
   }
 }

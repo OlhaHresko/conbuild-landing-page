@@ -30,6 +30,8 @@ html {
   color-scheme: light dark;
   text-size-adjust: none;
   scrollbar-gutter: stable;
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -87,20 +89,16 @@ video {
   height: auto;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-section {
-  scroll-margin-top: 215px;
+[id] {
+    scroll-margin-top: 13.4375rem;
 }
 
 .container {
   width: 100%;
-  max-width: 1321px;
+  max-width: 82.5625rem;
   margin: 0 auto;
-  margin-bottom: 143px;
-  padding: 0 12px 0 12px;
+  margin-bottom: 8.94rem;
+  padding: 0 0.75rem;
 }
 
 .no-scroll {
@@ -414,8 +412,8 @@ section {
 .hero {
   position: relative;
 
-  padding-bottom: 150px;
-  margin-bottom: 143px;
+  padding-bottom: 9.375rem;
+  margin-bottom: 8.94rem;
 }
 
 .hero-wrapper {
@@ -442,33 +440,33 @@ section {
   justify-content: space-between;
 
   width: 100%;
-  max-width: 1607px;
+  max-width: 100.4375rem;
 
   margin: 0 auto;
-  padding: 49px 12px 72px 12px;
+  padding: 3.0625rem 0.75rem 4.5rem 0.75rem;
 }
 
 .hero-text {
-  width: 901px;
-  padding-top: 149px;
-  padding-bottom: 124px;
+  width: 56.3rem;
+  padding-top: 9.31rem;
+  padding-bottom: 7.75rem;
 }
 
 .hero-title {
-  margin-bottom: 6px;
+  margin-bottom: 0.375rem;
 
   color: var(--bg-color);
   font-family: "Jost", sans-serif;
-  font-size: 158px;
+  font-size: 9.875rem;
   font-weight: 600;
   line-height: 0.873;
 }
 
 .hero-descr {
-  margin-bottom: 43px;
+  margin-bottom: 2.69rem;
 
   color: var(--light-text);
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.417;
 }
 
@@ -476,13 +474,13 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
 
   width: fit-content;
-  padding: 17px 35px;
+  padding: 1.0625rem 2.1875rem;
 
   font-family: "Jost", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.625;
 
@@ -517,8 +515,8 @@ section {
 }
 
 .hero-portrait {
-  width: 640px;
-  height: 722px;
+  width: 40rem;
+  height: 45.125rem;
 
   background-image: url(../assets/img/portrait-bg.svg);
   background-repeat: no-repeat;
@@ -529,13 +527,13 @@ section {
 .front-loader {
   position: absolute;
   bottom: 0;
-  left: 720px;
+  left: 45rem;
 }
 
 .crane {
   position: absolute;
-  bottom: -87px;
-  left: 110px;
+  bottom: -5.44rem;
+  left: 6.88rem;
 }
 
 /* --------- SERVICES --------- */
@@ -543,29 +541,28 @@ section {
 .container-services {
   display: flex;
   flex-direction: row;
-  gap: 75px;
+  gap: 4.69rem;
 }
 
 .services-text {
-  width: 476px;
+  width: 29.75rem;
 
   background-image: url(../assets/img/man.webp);
   background-repeat: no-repeat;
-  background-size: 70px 70px;
-  background-position: right 0 bottom 31px;
+  background-size: 4.375rem 4.375rem;
+  background-position: right 0 bottom 1.94rem;
 }
 
 .section-name {
   display: inline-block;
   position: relative;
 
-  margin-left: 25px;
-  margin-bottom: 15px;
+  margin-left: 1.56rem;
+  margin-bottom: 0.94rem;
 
   color: var(--dark);
 
   font-family: "Jost", sans-serif;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1.625;
 }
@@ -575,9 +572,9 @@ section {
   display: block;
   position: absolute;
   top: calc(50% - 1px);
-  left: -25px;
+  left: -1.5625rem;
 
-  width: 15px;
+  width: 0.9375rem;
   height: 1px;
 
   background-color: var(--accent);
@@ -588,13 +585,13 @@ section {
 
   color: var(--dark);
   font-family: "Jost", sans-serif;
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 600;
   line-height: 1.192;
 }
 
 .section-title.services-section-title {
-  margin-bottom: 9px;
+  margin-bottom: 0.56rem;
 }
 
 .button:hover,
@@ -608,12 +605,12 @@ section {
 }
 
 .section-descr {
-  margin-bottom: 43px;
+  margin-bottom: 2.69rem;
 }
 
 .swiper.swiper-1 {
-  width: 746px;
-  height: 418px;
+  width: 46.625rem;
+  height: 26.125rem;
 }
 
 .swiper-slide.swiper-first {
@@ -622,9 +619,9 @@ section {
   flex-direction: column;
   justify-content: space-between;
 
-  width: 306px;
+  width: 19.125rem;
   height: 100%;
-  padding: 24px;
+  padding: 1.5rem;
 
   background-size: cover;
   background-position: center;
@@ -676,8 +673,8 @@ section {
 }
 
 .slide-img {
-  width: 95px;
-  height: 74px;
+  width: 5.975rem;
+  height: 4.625rem;
 
   opacity: 0;
 
@@ -695,11 +692,11 @@ section {
 }
 
 .service-name {
-  margin-bottom: 13px;
+  margin-bottom: 0.81rem;
 
   color: var(--bg-color);
   font-family: "Jost", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.417;
   text-decoration: underline;
@@ -717,7 +714,7 @@ section {
   background-image: url(../assets/img/architecture.webp);
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: right 0 top 7px;
+  background-position: right 0 top 0.4375rem;
 
   overflow: visible;
 }
@@ -725,39 +722,35 @@ section {
 .about::before {
   content: "";
   position: absolute;
-  top: 580px;
+  top: 36.25rem;
   left: 0;
   z-index: 10;
 
-  width: 286px;
-  height: 545px;
+  width: 17.875rem;
+  height: 34.06rem;
 
   background-image: url(../assets/img/architecture-2.webp);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-.container.container-about {
-  margin-bottom: 137px;
-}
-
 .about-upper-block {
   display: flex;
   flex-direction: row;
-  gap: 83px;
+  gap: 5.19rem;
 
-  margin-bottom: 67px;
+  margin-bottom: 4.19rem;
 }
 
 .about-upper-block-left {
-  width: 686px;
+  width: 42.875rem;
 }
 
 .about-text {
-  margin-top: 16px;
-  margin-bottom: 23px;
+  margin-top: 1rem;
+  margin-bottom: 1.44rem;
 
-  width: 439px;
+  width: 27.44rem;
 
   background-color: var(--bg-color);
 }
@@ -765,7 +758,7 @@ section {
 .about-right-block {
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  gap: 1.5rem;
   align-items: center;
 
   background-color: var(--bg-color);
@@ -779,7 +772,7 @@ section {
 .about-span {
   color: var(--dark);
   font-family: "Jost", sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 600;
   line-height: 1;
 }
@@ -794,9 +787,8 @@ section {
 
   color: var(--dark);
   font-family: "Jost", sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 600;
-  line-height: 1.313;
   line-height: 1;
   text-align: left;
 
@@ -826,8 +818,8 @@ section {
   display: flex;
 
   width: 100%;
-  height: 332px;
-  padding-bottom: 64px;
+  height: 20.75rem;
+  padding-bottom: 4rem;
 }
 
 .swiper-slide.swiper-second {
@@ -836,9 +828,9 @@ section {
   flex-direction: column;
   justify-content: end;
 
-  width: 416px;
-  height: 332px;
-  padding: 21px 29px;
+  width: 26rem;
+  height: 20.75rem;
+  padding: 1.3125rem 1.8125rem;
 
   background-size: cover;
   background-position: center;
@@ -890,20 +882,20 @@ section {
 .swiper-navigation.swiper-second {
   position: absolute;
   bottom: 0;
-  left: calc(50% - (166px / 2));
+  left: calc(50% - (10.375rem / 2));
   display: flex;
   justify-content: center;
 
-  width: 166px;
-  height: 20px;
-  padding: 0 20px;
+  width: 10.375rem;
+  height: 1.25rem;
+  padding: 0 1.25rem;
 }
 
 .swiper-second.swiper-button-prev,
 .swiper-second.swiper-button-next {
   z-index: 10;
 
-  width: 60px;
+  width: 3.75rem;
 
   border: none;
 
@@ -928,7 +920,7 @@ section {
 
 .about-swiper-content {
   position: relative;
-  top: 101px;
+  top: 6.31rem;
   z-index: 1;
 
   width: 80%;
@@ -941,7 +933,7 @@ section {
 .swiper-second-name {
   color: var(--bg-color);
   font-family: "Jost", sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 600;
   line-height: 1.313;
 }
@@ -949,9 +941,9 @@ section {
 .swiper-second-points {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 0.3125rem;
 
-  margin-top: 12px;
+  margin-top: 0.75rem;
 
   color: var(--bg-color);
 }
@@ -975,7 +967,7 @@ section {
 .status-list {
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  gap: 1.5rem;
 
   cursor: default;
   user-select: none;
@@ -986,11 +978,11 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
   z-index: 10;
 
-  width: calc((100% - 72px) / 4);
-  height: 206px;
+  width: calc((100% - 4.5rem) / 4);
+  height: 12.875rem;
 
   background-color: var(--status-items);
 
@@ -1000,7 +992,7 @@ section {
 .status-number {
   color: var(--dark);
   font-family: "Jost", sans-serif;
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 600;
   line-height: 1.192;
 
@@ -1010,7 +1002,7 @@ section {
 .status-descr {
   color: var(--dark);
   font-family: "Jost", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.417;
 
@@ -1034,7 +1026,7 @@ section {
 .container.container-projects {
   position: relative;
 
-  margin-bottom: 67px;
+  margin-bottom: 4.19rem;
 }
 
 .projects-text {
@@ -1045,11 +1037,11 @@ section {
   position: absolute;
   display: flex;
   justify-content: center;
-  top: 66px;
+  top: 4.125rem;
   right: 0;
 
-  width: 166px;
-  height: 40px;
+  width: 10.375rem;
+  height: 2.5rem;
 }
 
 .projects-button.swiper-button-prev:after,
@@ -1059,7 +1051,7 @@ section {
 
 .projects-button.swiper-button-prev,
 .projects-button.swiper-button-next {
-  width: 60px;
+  width: 3.75rem;
 
   border: none;
 
@@ -1083,7 +1075,7 @@ section {
 }
 
 .swiper.swiper-3 {
-  margin-bottom: 143px;
+  margin-bottom: 8.94rem;
 }
 
 .swiper-wrapper.projects-list {
@@ -1136,8 +1128,8 @@ section {
   left: 50%;
   top: 50%;
 
-  width: 82px;
-  height: 82px;
+  width: 5.125rem;
+  height: 5.125rem;
 
   background-color: rgba(14, 14, 14, 0.5);
 
@@ -1147,8 +1139,8 @@ section {
 }
 
 .projects-item-button {
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;
+  height: 3.75rem;
 
   border: none;
 
@@ -1170,12 +1162,11 @@ section {
   display: inline-block;
 
   width: fit-content;
-  margin-bottom: 20px;
-  padding: 5px 16px;
+  margin-bottom: 1.25rem;
+  padding: 0.3125rem 1rem;
 
   color: var(--bg-color);
   font-family: "Jost", sans-serif;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1.625;
 
@@ -1186,11 +1177,11 @@ section {
   display: inline-block;
 
   width: fit-content;
-  padding: 16px 24px;
+  padding: 1rem 1.5rem;
 
   color: var(--bg-color);
   font-family: "Jost", sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 600;
   line-height: 1.313;
 
@@ -1203,8 +1194,8 @@ section {
   justify-content: end;
 
   width: 100%;
-  height: 443px;
-  padding: 30px;
+  height: 27.69rem;
+  padding: 1.875rem;
 
   opacity: 1;
   user-select: none;
@@ -1666,7 +1657,7 @@ iframe {
 }
 
 .pricing-container {
-  padding-top: 143px;
+  padding-top: 8.94rem;
   padding-bottom: 236px;
 
   text-align: center;
@@ -3371,10 +3362,6 @@ input[type="checkbox"] {
     font-size: 46px;
   }
 
-  .container.container-about {
-    margin-bottom: 120px;
-  }
-
   .status-number {
     font-size: 46px;
   }
@@ -3567,10 +3554,6 @@ input[type="checkbox"] {
 
   .section-title {
     font-size: 40px;
-  }
-
-  .container.container-about {
-    margin-bottom: 100px;
   }
 
   .section-title.status-title {
@@ -3900,10 +3883,6 @@ input[type="checkbox"] {
     font-size: 14px;
   }
 
-  .container.container-about {
-    margin-bottom: 80px;
-  }
-
   .section-title.status-title {
     margin-bottom: 44px;
   }
@@ -4216,10 +4195,6 @@ input[type="checkbox"] {
 
   .swiper-slide.swiper-first {
     width: 200px;
-  }
-
-  .container.container-about {
-    margin-bottom: 70px;
   }
 
   .swiper-second-name {
@@ -4692,10 +4667,6 @@ input[type="checkbox"] {
 
   .about {
     background-image: none;
-  }
-
-  .container.container-about {
-    margin-bottom: 50px;
   }
 
   .about-swiper-content {

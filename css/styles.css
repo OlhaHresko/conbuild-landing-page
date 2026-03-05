@@ -42,7 +42,7 @@ body {
 
   color: var(--dark-text);
   font-family: "Barlow", sans-serif;
-  font-size: 1rem;
+  font-size: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
   line-height: 1.625;
 
   -webkit-font-smoothing: antialiased;
@@ -90,7 +90,7 @@ video {
 }
 
 [id] {
-    scroll-margin-top: 13.4375rem;
+  scroll-margin-top: 13.4375rem;
 }
 
 .container {
@@ -322,7 +322,6 @@ video {
   position: relative;
 
   font-weight: 700;
-  line-height: 1.625;
   color: var(--bg-color);
 
   transition: color var(--transition);
@@ -404,7 +403,6 @@ video {
   font-family: "Jost", sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  line-height: 1.625;
 }
 
 /* --------- HERO --------- */
@@ -457,7 +455,7 @@ video {
 
   color: var(--bg-color);
   font-family: "Jost", sans-serif;
-  font-size: 9.875rem;
+  font-size: clamp(2.375rem, -0.8393rem + 8.9286vw, 9.875rem);
   font-weight: 600;
   line-height: 0.873;
 }
@@ -466,7 +464,7 @@ video {
   margin-bottom: 2.69rem;
 
   color: var(--light-text);
-  font-size: 1.5rem;
+  font-size: clamp(0.875rem, 0.6964rem + 0.8929vw, 1.5rem);
   line-height: 1.417;
 }
 
@@ -480,7 +478,7 @@ video {
   padding: 1.0625rem 2.1875rem;
 
   font-family: "Jost", sans-serif;
-  font-size: 1rem;
+  font-size: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
   font-weight: 600;
   line-height: 1.625;
 
@@ -564,7 +562,6 @@ video {
 
   font-family: "Jost", sans-serif;
   font-weight: 600;
-  line-height: 1.625;
 }
 
 .section-name::before {
@@ -585,7 +582,7 @@ video {
 
   color: var(--dark);
   font-family: "Jost", sans-serif;
-  font-size: 3.25rem;
+  font-size: clamp(1.875rem, 1.4821rem + 1.9643vw, 3.25rem);
   font-weight: 600;
   line-height: 1.192;
 }
@@ -772,7 +769,7 @@ video {
 .about-span {
   color: var(--dark);
   font-family: "Jost", sans-serif;
-  font-size: 2rem;
+  font-size: clamp(1rem, 0.7143rem + 1.4286vw, 2rem);
   font-weight: 600;
   line-height: 1;
 }
@@ -787,7 +784,7 @@ video {
 
   color: var(--dark);
   font-family: "Jost", sans-serif;
-  font-size: 2rem;
+  font-size: clamp(1rem, 0.7143rem + 1.4286vw, 2rem);
   font-weight: 600;
   line-height: 1;
   text-align: left;
@@ -933,7 +930,7 @@ video {
 .swiper-second-name {
   color: var(--bg-color);
   font-family: "Jost", sans-serif;
-  font-size: 2rem;
+  font-size: clamp(1.375rem, 1.1964rem + 0.8929vw, 2rem);
   font-weight: 600;
   line-height: 1.313;
 }
@@ -992,7 +989,7 @@ video {
 .status-number {
   color: var(--dark);
   font-family: "Jost", sans-serif;
-  font-size: 3.25rem;
+  font-size: clamp(1.875rem, 1.4821rem + 1.9643vw, 3.25rem);
   font-weight: 600;
   line-height: 1.192;
 
@@ -1002,7 +999,7 @@ video {
 .status-descr {
   color: var(--dark);
   font-family: "Jost", sans-serif;
-  font-size: 1.5rem;
+  font-size: clamp(0.875rem, 0.6964rem + 0.8929vw, 1.5rem);
   font-weight: 600;
   line-height: 1.417;
 
@@ -1168,7 +1165,6 @@ video {
   color: var(--bg-color);
   font-family: "Jost", sans-serif;
   font-weight: 600;
-  line-height: 1.625;
 
   background-color: var(--accent);
 }
@@ -1181,7 +1177,7 @@ video {
 
   color: var(--bg-color);
   font-family: "Jost", sans-serif;
-  font-size: 2rem;
+  font-size: clamp(1.125rem, 0.875rem + 1.25vw, 2rem);
   font-weight: 600;
   line-height: 1.313;
 
@@ -1257,7 +1253,7 @@ video {
 
   color: var(--dark);
   font-family: "Jost", sans-serif;
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 0.8571rem + 0.7143vw, 1.5rem);
   font-weight: 600;
   line-height: 1.417;
 
@@ -1294,7 +1290,7 @@ video {
   pointer-events: none;
 
   transform: translateX(-50%);
-  transition: left 0.3s ease;
+  transition: left var(--transition);
 }
 
 .process-button:hover,
@@ -1438,7 +1434,7 @@ iframe {
 
   color: var(--dark-text);
   font-family: "Jost", sans-serif;
-  font-size: 2rem;
+  font-size: clamp(1rem, 0.7143rem + 1.4286vw, 2rem);
   line-height: 1.313;
 }
 
@@ -1470,7 +1466,7 @@ iframe {
 
   color: var(--dark);
   font-family: "Jost", sans-serif;
-  font-size: 2rem;
+  font-size: clamp(1rem, 0.7143rem + 1.4286vw, 2rem);
   font-weight: 600;
   line-height: 1.15;
 }
@@ -1483,7 +1479,7 @@ iframe {
   display: none;
 
   color: var(--dark-text);
-  font-size: 1.5rem;
+  font-size: clamp(0.75rem, 0.5357rem + 1.0714vw, 1.5rem);
   line-height: 1.3;
 }
 
@@ -1622,7 +1618,7 @@ iframe {
 
   color: var(--dark);
   font-family: "Jost", sans-serif;
-  font-size: 1.5rem;
+  font-size: clamp(1.125rem, 1.0179rem + 0.5357vw, 1.5rem);
   font-weight: 600;
   line-height: 1.417;
   text-align: end;
@@ -1634,13 +1630,13 @@ iframe {
   margin-bottom: 0;
 
   color: #ff6600;
-  font-size: 2rem;
+  font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
   line-height: 1.313;
   text-decoration: underline;
 }
 
 .team-member-position {
-  font-size: 1.5rem;
+  font-size: clamp(0.875rem, 0.6964rem + 0.8929vw, 1.5rem);
   text-align: end;
 }
 
@@ -1701,7 +1697,7 @@ iframe {
 .price {
   color: var(--dark);
   font-family: "Jost", sans-serif;
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 1.3571rem + 0.7143vw, 2rem);
   font-weight: 600;
   line-height: 1.313;
 }
@@ -1709,7 +1705,6 @@ iframe {
 .price-span {
   font-family: "Jost", sans-serif;
   font-weight: 600;
-  line-height: 1.625;
 }
 
 .price-tariff {
@@ -1814,7 +1809,7 @@ iframe {
   z-index: 10;
 
   width: 17.88rem;
-  height: 34,06rem;
+  height: 34.06rem;
 
   background-image: url(../assets/img/architecture-2.webp);
   background-repeat: no-repeat;
@@ -1859,7 +1854,7 @@ iframe {
   background-repeat: no-repeat;
 
   color: var(--bg-color);
-  font-size: 1.5rem;
+  font-size: clamp(0.9375rem, 0.7768rem + 0.8036vw, 1.5rem);
   line-height: 1.417;
 
   transform: translateX(-55%);
@@ -1929,7 +1924,7 @@ iframe {
 
   color: var(--dark);
   font-family: "Jost", sans-serif;
-  font-size: 2rem;
+  font-size: clamp(1.625rem, 1.5179rem + 0.5357vw, 2rem);
   font-weight: 600;
   line-height: 1.313;
 }
@@ -1955,7 +1950,6 @@ iframe {
   font-family: "Jost", sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  line-height: 1.625;
   fill: var(--dark);
 
   cursor: pointer;
@@ -2023,7 +2017,7 @@ iframe {
   color: var(--dark);
   text-transform: capitalize;
   font-family: "Jost", sans-serif;
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 0.8571rem + 0.7143vw, 1.5rem);
   font-weight: 600;
   line-height: 1.417;
 }
@@ -2149,7 +2143,7 @@ iframe {
 
   color: var(--bg-color);
   font-family: "Jost", sans-serif;
-  font-size: 2rem;
+  font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
   font-weight: 600;
   line-height: 1.313;
 
@@ -2188,7 +2182,8 @@ iframe {
   transition: transform var(--transition);
 }
 
-.sign-up-form:has(input:focus) .sign-up-label, .sign-up-form:has(input:not(:placeholder-shown)) .sign-up-label {
+.sign-up-form:has(input:focus) .sign-up-label,
+.sign-up-form:has(input:not(:placeholder-shown)) .sign-up-label {
   transform: translateY(-1.875rem);
 }
 
@@ -2294,6 +2289,10 @@ iframe {
   color: var(--footer-light);
 }
 
+.footer-list a {
+  transition: color var(--transition);
+}
+
 .footer-list a:hover,
 .footer-list a:focus {
   color: var(--accent);
@@ -2310,6 +2309,7 @@ iframe {
 
   color: var(--footer-light);
   font-family: "DM Sans", sans-serif;
+  font-size: clamp(0.75rem, 0.6786rem + 0.3571vw, 1rem);
   text-transform: capitalize;
 }
 
@@ -2677,7 +2677,6 @@ iframe {
   font-family: "Jost", sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
-  line-height: 1.625;
 }
 
 .modal-project-wrapper {
@@ -2903,7 +2902,7 @@ iframe {
   position: absolute;
   top: 0;
   left: -1.25rem;
-  top: 0,348rem;
+  top: 0.348rem;
 
   width: 1rem;
   height: 1rem;
@@ -2921,7 +2920,6 @@ iframe {
   color: var(--dark);
   font-size: 1.125rem;
   font-weight: 600;
-  line-height: 1.625;
 }
 
 .modal-pricing-cta {
@@ -3180,7 +3178,7 @@ input[type="checkbox"] {
   }
 
   .front-loader {
-    left: 37,5rem;
+    left: 37.5rem;
   }
 }
 
@@ -3188,7 +3186,7 @@ input[type="checkbox"] {
 
 @media (width <= 109rem) {
   .logo-background {
-    left: 9.375rem;
+    left: -9.375rem;
   }
 
   .logo {
@@ -3199,16 +3197,8 @@ input[type="checkbox"] {
     padding: 3rem 3rem 4.5rem;
   }
 
-  .hero-title {
-    font-size: 8.75rem;
-  }
-
   .front-loader {
     left: 28.16rem;
-  }
-
-  .projects-name {
-    font-size: 1.625rem;
   }
 }
 
@@ -3229,14 +3219,6 @@ input[type="checkbox"] {
 
   .contacts-list {
     gap: 2.25rem;
-  }
-
-  .hero-title {
-    font-size: 6.875rem;
-  }
-
-  .hero-descr {
-    font-size: 1.25rem;
   }
 
   .front-loader {
@@ -3319,14 +3301,8 @@ input[type="checkbox"] {
     display: none;
   }
 
-  .hero-title {
-    font-size: 5.125rem;
-  }
-
   .hero-descr {
     max-width: 37.5rem;
-
-    font-size: 1rem;
   }
 
   .hero-portrait {
@@ -3356,18 +3332,6 @@ input[type="checkbox"] {
     gap: 3.44rem;
   }
 
-  .section-title {
-    font-size: 2.88rem;
-  }
-
-  .status-number {
-    font-size: 2.88rem;
-  }
-
-  .status-descr {
-    font-size: 1.375rem;
-  }
-
   .projects-item-content {
     height: 22.5rem;
     padding: 1.25rem;
@@ -3379,8 +3343,6 @@ input[type="checkbox"] {
 
   .projects-name {
     padding: 0.75rem 1.125rem;
-
-    font-size: 1.375rem;
   }
 
   .swiper.swiper-3 {
@@ -3390,10 +3352,6 @@ input[type="checkbox"] {
   .custom-play-button {
     width: 6.25rem;
     height: 6.25rem;
-  }
-
-  .testimonials-review {
-    font-size: 1.625rem;
   }
 
   .team-container {
@@ -3406,16 +3364,6 @@ input[type="checkbox"] {
 
   .team-member-name {
     margin-bottom: 0;
-
-    font-size: 1.375rem;
-  }
-
-  .team-member-name.active {
-    font-size: 1.75rem;
-  }
-
-  .team-member-position {
-    font-size: 1.125rem;
   }
 
   .pricing-container {
@@ -3426,10 +3374,6 @@ input[type="checkbox"] {
 
   .blog-main-article {
     gap: 5.625rem;
-  }
-
-  .blog-article-title {
-    font-size: 1.375rem;
   }
 
   .sign-up-wrapper {
@@ -3492,10 +3436,6 @@ input[type="checkbox"] {
     padding-right: 1.25rem;
   }
 
-  .nav-link {
-    font-size: 0.875rem;
-  }
-
   .nav-link.active::after {
     bottom: -2.19rem;
   }
@@ -3505,8 +3445,6 @@ input[type="checkbox"] {
   }
 
   .hero-container {
-    gap: 1.875rem;
-
     padding: 2.5rem 3rem 4.5rem 3rem;
   }
 
@@ -3515,14 +3453,8 @@ input[type="checkbox"] {
     padding-bottom: 7.75rem;
   }
 
-  .hero-title {
-    font-size: 4.375rem;
-  }
-
   .hero-descr {
     max-width: 34.375rem;
-
-    font-size: 0.875rem;
   }
 
   .hero-portrait {
@@ -3550,20 +3482,8 @@ input[type="checkbox"] {
     gap: 2.5rem;
   }
 
-  .section-title {
-    font-size: 2.5rem;
-  }
-
   .section-title.status-title {
     margin-bottom: 3.125rem;
-  }
-
-  .status-number {
-    font-size: 2.5rem;
-  }
-
-  .status-descr {
-    font-size: 1.25rem;
   }
 
   .projects-item-content {
@@ -3579,8 +3499,6 @@ input[type="checkbox"] {
 
   .projects-name {
     padding: 0.75rem 1.125rem;
-
-    font-size: 1.125rem;
   }
 
   .projects-item-button-container {
@@ -3606,8 +3524,6 @@ input[type="checkbox"] {
   .process-button {
     width: calc((100% - 2.25rem) / 3);
     height: 4.375rem;
-
-    font-size: 1.25rem;
   }
 
   .custom-play-button {
@@ -3617,14 +3533,6 @@ input[type="checkbox"] {
 
   .testimonials-text {
     max-width: 35rem;
-  }
-
-  .testimonials-review {
-    font-size: 1.375rem;
-  }
-
-  .testimonials-role {
-    font-size: 1.25rem;
   }
 
   .team-container {
@@ -3637,18 +3545,6 @@ input[type="checkbox"] {
 
   .team-members {
     min-width: 12.56rem;
-  }
-
-  .team-member-name {
-    font-size: 1.25rem;
-  }
-
-  .team-member-name.active {
-    font-size: 1.5rem;
-  }
-
-  .team-member-position {
-    font-size: 1rem;
   }
 
   .pricing-container {
@@ -3682,12 +3578,7 @@ input[type="checkbox"] {
     height: 6rem;
     padding: 0.75rem 0.94rem 1rem;
 
-    font-size: 1.25rem;
     text-align: center;
-  }
-
-  .blog-article-title {
-    font-size: 1.25rem;
   }
 
   .sign-up-input {
@@ -3752,7 +3643,7 @@ input[type="checkbox"] {
   }
 
   .contacts-item {
-    transition: width 0.3s ease;
+    transition: width var(--transition);
   }
 
   .contacts-item.active {
@@ -3788,10 +3679,6 @@ input[type="checkbox"] {
     padding-bottom: 5.625rem;
   }
 
-  .hero-title {
-    font-size: 3.5rem;
-  }
-
   .hero-descr {
     margin-bottom: 2.25rem;
   }
@@ -3821,14 +3708,8 @@ input[type="checkbox"] {
     gap: 2.5rem;
   }
 
-  .section-title {
-    font-size: 1.875rem;
-  }
-
   .section-descr {
     margin-bottom: 2.25rem;
-
-    font-size: 0.875rem;
   }
 
   .swiper-slide.swiper-first {
@@ -3841,14 +3722,8 @@ input[type="checkbox"] {
     top: 8.125rem;
   }
 
-  .swiper-second-name {
-    font-size: 1.625rem;
-  }
-
   .swiper-second-points {
     display: none;
-
-    font-size: 0.875rem;
   }
 
   .points-visible {
@@ -3871,14 +3746,8 @@ input[type="checkbox"] {
     margin-bottom: 3.125rem;
   }
 
-  .about-span {
-    font-size: 1.625rem;
-  }
-
   .about-text {
     width: 23.75rem;
-
-    font-size: 0.875rem;
   }
 
   .section-title.status-title {
@@ -3894,14 +3763,6 @@ input[type="checkbox"] {
     height: 10rem;
   }
 
-  .status-number {
-    font-size: 1.875rem;
-  }
-
-  .status-descr {
-    font-size: 1.125rem;
-  }
-
   .container.container-projects {
     margin-bottom: 3.125rem;
   }
@@ -3912,8 +3773,6 @@ input[type="checkbox"] {
 
   .projects-name {
     padding: 0.25rem 0.375rem;
-
-    font-size: 1rem;
   }
 
   .swiper.swiper-3 {
@@ -3932,8 +3791,6 @@ input[type="checkbox"] {
 
   .process-button {
     width: calc((100% - 1.75rem) / 3);
-
-    font-size: 1rem;
   }
 
   .custom-play-button {
@@ -3947,14 +3804,6 @@ input[type="checkbox"] {
 
   .testimonials-persons-block {
     gap: 1.625rem;
-  }
-
-  .testimonials-name {
-    font-size: 1.625rem;
-  }
-
-  .testimonials-role {
-    font-size: 1.125rem;
   }
 
   .testimonials-quote-line {
@@ -3980,10 +3829,6 @@ input[type="checkbox"] {
     margin-bottom: 2.5rem;
   }
 
-  .team-descr {
-    font-size: 0.875rem;
-  }
-
   .team-image {
     min-width: 17.5rem;
     height: 23.06rem;
@@ -3991,18 +3836,6 @@ input[type="checkbox"] {
 
   .team-members {
     min-width: 10.5rem;
-  }
-
-  .team-member-name {
-    font-size: 1.125rem;
-  }
-
-  .team-member-name.active {
-    font-size: 1.25rem;
-  }
-
-  .team-member-position {
-    font-size: 0.875rem;
   }
 
   .pricing-container {
@@ -4028,22 +3861,10 @@ input[type="checkbox"] {
     margin-bottom: 0.5rem;
   }
 
-  .price {
-    font-size: 1.5rem;
-  }
-
-  .price-span {
-    font-size: 0.875rem;
-  }
-
   .price-tariff {
     gap: 0.625rem;
 
     margin-bottom: 1.25rem;
-  }
-
-  .price-tariff > span {
-    font-size: 0.875rem;
   }
 
   .pricing-features {
@@ -4056,7 +3877,6 @@ input[type="checkbox"] {
   .pricing-feature {
     padding-left: 0.75rem;
 
-    font-size: 0.875rem;
     line-height: 2;
   }
 
@@ -4074,51 +3894,45 @@ input[type="checkbox"] {
 
     font-size: 0.875rem;
   }
-  
+
   .blog-list {
-  gap: 0.625rem;
+    gap: 0.625rem;
 
-  margin-bottom: 2.25rem;
-}
+    margin-bottom: 2.25rem;
+  }
 
-.blog-main-article-paragraph {
-  font-size: 0.875rem;
-}
+  .blog-article {
+    width: calc((100% - 1.25rem) / 3);
+    padding: 0.875rem 0.875rem 0.875rem;
+  }
 
-.blog-article {
-  width: calc((100% - 1.25rem) / 3);
-  padding: 0.875rem 0.875rem 0.875rem;
-}
+  .sign-up-wrapper {
+    height: fit-content;
+    padding: 2.81rem;
+  }
 
-.sign-up-wrapper {
-  height: fit-content;
-  padding: 2.81rem;
-}
+  .sign-up-cta {
+    width: fit-content;
+    max-width: 50%;
+  }
 
-.sign-up-cta {
-  width: fit-content;
-  max-width: 50%;
+  .sign-up-input {
+    min-width: 15.625rem;
+  }
 
-  font-size: 1.625rem;
-}
+  .footer-lower {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 4.375rem;
+    column-gap: 1.25rem;
 
-.sign-up-input {
-  min-width: 15.625rem;
-}
+    padding-top: 9.375rem;
+  }
 
-.footer-lower {
-  flex-wrap: wrap;
-  justify-content: center;
-  row-gap: 4.375rem;
-  column-gap: 1.25rem;
-
-  padding-top: 9.375rem;
-}
-
-.footer-lower > div:nth-child(1) {
-  display: flex;
-  gap: 4.375rem;
-  align-items: start;
+  .footer-lower > div:nth-child(1) {
+    display: flex;
+    gap: 4.375rem;
+    align-items: start;
 
     width: 100%;
     margin-right: 0;
@@ -4158,14 +3972,8 @@ input[type="checkbox"] {
     padding-top: 4.125rem;
   }
 
-  .hero-title {
-    font-size: 2.375rem;
-  }
-
   .hero-descr {
     margin-bottom: 1.875rem;
-
-    font-size: 0.75rem;
   }
 
   .hero-portrait {
@@ -4175,8 +3983,6 @@ input[type="checkbox"] {
 
   .button {
     padding: 0.75rem 1.25rem;
-
-    font-size: 0.875rem;
   }
 
   .front-loader {
@@ -4196,7 +4002,6 @@ input[type="checkbox"] {
   }
 
   .swiper-second-name {
-    font-size: 1.375rem;
     text-align: center;
   }
 
@@ -4206,12 +4011,12 @@ input[type="checkbox"] {
     margin-bottom: 2.5rem;
   }
 
-  .about-span {
-    font-size: 1.375rem;
-  }
-
   .about-text {
     width: 21.88rem;
+  }
+
+  .about-span-reflection {
+    top: 50%;
   }
 
   .swiper-slide.swiper-second {
@@ -4233,10 +4038,6 @@ input[type="checkbox"] {
 
   .status-item {
     width: calc((100% - 1.5rem) / 2);
-  }
-
-  .status-number {
-    font-size: 2.25rem;
   }
 
   .projects-type {
@@ -4279,20 +4080,10 @@ input[type="checkbox"] {
 
   .testimonials-review {
     padding-top: 2.5rem;
-
-    font-size: 1.125rem;
   }
 
   .testimonials-persons-block {
     gap: 1rem;
-  }
-
-  .testimonials-name {
-    font-size: 1.25rem;
-  }
-
-  .testimonials-role {
-    font-size: 0.875rem;
   }
 
   .testimonials-quote-line {
@@ -4393,20 +4184,12 @@ input[type="checkbox"] {
   }
 
   .blog-main-article-date {
-    left: 0.625rem;
+    left: 1.667rem;
     transform: translateX(0%);
   }
 
   .blog-main-article-text {
     max-width: 100%;
-  }
-
-  .blog-author {
-    font-size: 0.875rem;
-  }
-
-  .blog-theme {
-    font-size: 0.875rem;
   }
 
   .blog-main-article-paragraph {
@@ -4445,10 +4228,6 @@ input[type="checkbox"] {
     padding: 2.5rem 1.875rem;
   }
 
-  .sign-up-cta {
-    font-size: 1.25rem;
-  }
-
   .sign-up-form {
     flex: 1 1 30%;
   }
@@ -4461,19 +4240,15 @@ input[type="checkbox"] {
     width: 18.75rem;
   }
 
-.footer-lower > div:nth-child(1) {
-  gap: 1.25rem;
-  }
-
-  .footer-lower:not(div:nth-child(1) .logo-link), .footer-rights {
-    font-size: 0.875rem;
+  .footer-lower > div:nth-child(1) {
+    gap: 1.25rem;
   }
 }
 
 /* --------- MOBILE (<=36rem) --------- */
 
 @media (width <= 36rem) {
-.container {
+  .container {
     margin-bottom: 3.125rem;
     padding: 0 0.94rem;
   }
@@ -4678,8 +4453,6 @@ input[type="checkbox"] {
 
   .swiper-second-points {
     display: flex;
-
-    font-size: 0.875rem;
   }
 
   .about-upper-block {
@@ -4698,10 +4471,6 @@ input[type="checkbox"] {
 
   .about-upper-block-left {
     width: 100%;
-  }
-
-  .about-span {
-    font-size: 1rem;
   }
 
   .about-text {
@@ -4730,20 +4499,8 @@ input[type="checkbox"] {
     height: 9.375rem;
   }
 
-  .status-number {
-    font-size: 1.875rem;
-  }
-
-  .status-descr {
-    font-size: 0.875rem;
-  }
-
   .projects-buttons {
     top: 5rem;
-  }
-
-  .projects-name {
-    font-size: 1.125rem;
   }
 
   .swiper.swiper-3 {
@@ -4796,20 +4553,10 @@ input[type="checkbox"] {
 
   .testimonials-review {
     padding-top: 1.875rem;
-
-    font-size: 1rem;
   }
 
   .testimonials-persons-block {
     gap: 0.5rem;
-  }
-
-  .testimonials-name {
-    font-size: 1rem;
-  }
-
-  .testimonials-role {
-    font-size: 0.75rem;
   }
 
   .testimonials-quote {
@@ -4838,7 +4585,7 @@ input[type="checkbox"] {
 
   .team::before {
     display: none;
-    
+
     pointer-events: none;
   }
 
@@ -4910,7 +4657,7 @@ input[type="checkbox"] {
       flex-wrap: wrap;
       column-gap: 0.375rem;
 
-      height: 6.375rem;
+      height: 6.5rem;
     }
   }
 
@@ -4921,8 +4668,6 @@ input[type="checkbox"] {
   .blog-main-article-date {
     width: 5rem;
     height: 4.81rem;
-
-    font-size: 0.94rem;
   }
 
   .blog-main-article-pic {
@@ -4943,7 +4688,7 @@ input[type="checkbox"] {
     margin-right: 1.25rem;
   }
 
-.blog-article .blog-author::before {
+  .blog-article .blog-author::before {
     left: -0.94rem;
 
     width: 0.625rem;
@@ -4954,12 +4699,8 @@ input[type="checkbox"] {
     left: -0.94rem;
   }
 
-.blog-article .blog-descr {
-  padding-left: 0.875rem;
-}
-
-  .blog-article-title {
-    font-size: 1rem;
+  .blog-article .blog-descr {
+    padding-left: 0.875rem;
   }
 
   .blog-article-pic {
@@ -4993,9 +4734,9 @@ input[type="checkbox"] {
     row-gap: 2.5rem;
   }
 
-.footer-lower > div:nth-child(1) {
-  flex-direction: column;
-  gap: 0;
+  .footer-lower > div:nth-child(1) {
+    flex-direction: column;
+    gap: 0;
   }
 
   .footer-text {
@@ -5003,13 +4744,11 @@ input[type="checkbox"] {
     max-width: 31.25rem;
   }
 
-.footer-lower > div:not(:nth-child(1)) {
-  width: 100%;
-}
+  .footer-lower > div:not(:nth-child(1)) {
+    width: 100%;
+  }
 
-.footer-rights {
-  height: 2.5rem;
-
-  font-size: 0.75rem;
-}
+  .footer-rights {
+    height: 2.5rem;
+  }
 }

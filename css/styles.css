@@ -435,9 +435,11 @@ video {
 }
 
 .hero-container {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 24px;
 
   width: 100%;
   max-width: 100.4375rem;
@@ -447,7 +449,10 @@ video {
 }
 
 .hero-text {
-  width: 56.3rem;
+  flex: 900 1 60%;
+
+  max-width: 900px;
+  min-width: 0;
   padding-top: 9.31rem;
   padding-bottom: 7.75rem;
 }
@@ -523,27 +528,28 @@ video {
 .button.accent:focus {
   transform: scale(1.05);
 }
-
 .hero-portrait {
-  width: 40rem;
-  height: 45.125rem;
+  flex: 600 1 40%;
+  align-self: center;
+  max-width: 600px;
+  min-width: 0;
 
   background-image: url(../assets/img/portrait-bg.svg);
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom center;
   background-size: contain;
 }
 
 .front-loader {
   position: absolute;
-  bottom: 0;
-  left: clamp(15rem, calc(45rem - (119rem - 100vw) * 3), 45rem);
+  bottom: -9.44rem;
+  left: clamp(15rem, calc(45rem - (119rem - 100vw) * 3), 31.25rem);
 }
 
 .crane {
   position: absolute;
-  bottom: -5.44rem;
-  left: 6.88rem;
+  bottom: -14.8rem;
+  left: min(3rem, max(-7.5rem, 1900px - 100vw));
 }
 
 /* --------- SERVICES --------- */
@@ -959,7 +965,7 @@ video {
   align-items: center;
 }
 
-.section-title.status-title {
+.status-title {
   margin-bottom: 4.19rem;
 }
 
@@ -967,6 +973,8 @@ video {
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
+
+  font-family: "Jost", sans-serif;
 
   cursor: default;
   user-select: none;
@@ -984,13 +992,12 @@ video {
   height: 12.875rem;
 
   background-color: var(--status-items);
-
+  
   transition: background-color var(--transition);
 }
 
 .status-number {
   color: var(--dark);
-  font-family: "Jost", sans-serif;
   font-size: clamp(1.875rem, 1.4821rem + 1.9643vw, 3.25rem);
   font-weight: 600;
   line-height: 1.192;
@@ -1000,7 +1007,6 @@ video {
 
 .status-descr {
   color: var(--dark);
-  font-family: "Jost", sans-serif;
   font-size: clamp(0.875rem, 0.6964rem + 0.8929vw, 1.5rem);
   font-weight: 600;
   line-height: 1.417;
@@ -1012,11 +1018,7 @@ video {
   background-color: var(--accent);
 }
 
-.status-item:hover .status-number {
-  color: var(--bg-color);
-}
-
-.status-item:hover .status-descr {
+.status-item:hover .status-number, .status-item:hover .status-descr {
   color: var(--bg-color);
 }
 
@@ -1074,12 +1076,14 @@ video {
 }
 
 .swiper.swiper-3 {
+  width: 100%;
+  max-width: 120rem;
   margin-bottom: 8.94rem;
 }
 
 .swiper-wrapper.projects-list {
   display: flex;
-  font-display: row;
+  flex-direction: row;
 }
 
 .projects-item {
@@ -3285,22 +3289,11 @@ input[type="checkbox"] {
     max-width: 37.5rem;
   }
 
-  .hero-portrait {
-    width: 31.25rem;
-    height: 35.25rem;
-  }
-
   .front-loader {
-    bottom: 1.25rem;
+    bottom: -7.5rem;
 
     width: 26.25rem;
     height: 16.88rem;
-  }
-
-  .crane {
-    bottom: -2.88rem;
-    left: 5.63rem;
-    z-index: -999;
   }
 
   .hero {
@@ -3428,30 +3421,23 @@ input[type="checkbox"] {
   }
 
   .hero-text {
-    padding-top: 8.125rem;
-    padding-bottom: 7.75rem;
+    padding-top: 6.25rem;
+    padding-bottom: 2rem;
   }
 
   .hero-descr {
     max-width: 34.375rem;
   }
 
-  .hero-portrait {
-    width: 28.125rem;
-    height: 31.69rem;
-  }
-
   .front-loader {
-    bottom: 3.75rem;
+    bottom: -6rem;
 
     width: 21.875rem;
     height: 14.06rem;
   }
 
   .crane {
-    bottom: 1.875rem;
-    left: 3rem;
-
+    bottom: -9.5rem;
     width: 3.125rem;
     height: auto;
   }
@@ -3460,7 +3446,7 @@ input[type="checkbox"] {
     gap: 2.5rem;
   }
 
-  .section-title.status-title {
+  .status-title {
     margin-bottom: 3.125rem;
   }
 
@@ -3543,7 +3529,7 @@ input[type="checkbox"] {
     padding: 2.75rem 1.875rem 2.75rem;
   }
 
-  .section-title.status-title {
+  .status-title {
     margin-bottom: 2.5rem;
   }
 
@@ -3633,7 +3619,7 @@ input[type="checkbox"] {
   }
 
   .hero-container {
-    padding: 2.25rem 1.56rem 1.25rem 1.56rem;
+    padding: 2.25rem 1.56rem;
   }
 
   .hero-wrapper {
@@ -3646,16 +3632,10 @@ input[type="checkbox"] {
 
   .hero-text {
     padding-top: 5.375rem;
-    padding-bottom: 5.625rem;
   }
 
   .hero-descr {
     margin-bottom: 2.25rem;
-  }
-
-  .hero-portrait {
-    width: 21.88rem;
-    height: 24.69rem;
   }
 
   .button {
@@ -3663,7 +3643,7 @@ input[type="checkbox"] {
   }
 
   .front-loader {
-    bottom: 3.125rem;
+    bottom: -3.5rem;
 
     width: 12.5rem;
     height: 8.06rem;
@@ -3719,7 +3699,7 @@ input[type="checkbox"] {
     width: 23.75rem;
   }
 
-  .section-title.status-title {
+  .status-title {
     margin-bottom: 2.75rem;
   }
 
@@ -3938,16 +3918,12 @@ input[type="checkbox"] {
   }
 
   .hero-text {
-    padding-top: 4.125rem;
+    padding-top: 1.25rem;
+    padding-bottom: 0;
   }
 
   .hero-descr {
     margin-bottom: 1.875rem;
-  }
-
-  .hero-portrait {
-    width: 17.5rem;
-    height: 19.75rem;
   }
 
   .button {
@@ -3994,7 +3970,7 @@ input[type="checkbox"] {
     padding: 1.31rem 0.625rem;
   }
 
-  .section-title.status-title {
+  .status-title {
     margin-bottom: 2.375rem;
   }
 
@@ -4363,9 +4339,8 @@ input[type="checkbox"] {
   }
 
   .hero-portrait {
+    max-width: 100%;
     margin: 0 auto;
-
-    background-position: bottom center;
   }
 
   .button {
@@ -4447,7 +4422,7 @@ input[type="checkbox"] {
     width: 100%;
   }
 
-  .section-title.status-title {
+  .status-title {
     margin-bottom: 1.875rem;
   }
 

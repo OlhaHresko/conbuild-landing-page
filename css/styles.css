@@ -448,8 +448,8 @@ video {
 .hero {
   position: relative;
 
-  padding-bottom: 9.375rem;
-  margin-bottom: 8.94rem;
+  padding-bottom: 9.5rem;
+  margin-bottom: 9rem;
 }
 
 .hero-wrapper {
@@ -481,15 +481,15 @@ video {
   gap: 24px;
 
   width: 100%;
-  max-width: 100.4375rem;
+  max-width: 100.5rem;
 
   margin: 0 auto;
-  padding: 3.0625rem 0.75rem 4.5rem 0.75rem;
+  padding: 3rem 0.75rem 4.5rem 0.75rem;
 }
 
 @container header (max-width: 119rem) {
   .hero-container {
-    padding: 3.0625rem 2rem 4.5rem 2rem;
+    padding: 3rem 2rem 4.5rem 2rem;
   }
 }
 
@@ -498,12 +498,12 @@ video {
 
   max-width: 900px;
   min-width: 0;
-  padding-top: 9.31rem;
-  padding-bottom: 7.75rem;
+  padding-top: 9rem;
+  padding-bottom: 8rem;
 }
 
 .hero-title {
-  margin-bottom: 0.375rem;
+  margin-bottom: 0.5rem;
 
   color: var(--bg-color);
   font-family: "Jost", sans-serif;
@@ -513,7 +513,7 @@ video {
 }
 
 .hero-descr {
-  margin-bottom: 2.69rem;
+  margin-bottom: 3rem;
 
   color: var(--light-text);
   font-size: clamp(0.875rem, 0.6964rem + 0.8929vw, 1.5rem);
@@ -527,7 +527,7 @@ video {
   gap: 0.625rem;
 
   width: fit-content;
-  padding: 1.0625rem 2.1875rem;
+  padding: 1rem 2.2rem;
 
   font-family: "Jost", sans-serif;
   font-size: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
@@ -587,7 +587,7 @@ video {
 
 .front-loader {
   position: absolute;
-  bottom: -9.44rem;
+  bottom: -9.5rem;
   left: clamp(15rem, calc(45rem - (119rem - 100vw) * 3), 31.25rem);
 }
 
@@ -606,7 +606,7 @@ video {
 }
 
 .services-text {
-  width: 29.75rem;
+  width: 30rem;
 
   background-image: url(../assets/img/man.webp);
   background-repeat: no-repeat;
@@ -618,8 +618,8 @@ video {
   display: inline-block;
   position: relative;
 
-  margin-left: 1.56rem;
-  margin-bottom: 0.94rem;
+  margin-left: 1.6rem;
+  margin-bottom: 1rem;
 
   color: var(--dark);
   font-family: "Jost", sans-serif;
@@ -631,9 +631,9 @@ video {
   display: block;
   position: absolute;
   top: calc(50% - 1px);
-  left: -1.5625rem;
+  left: -1.6rem;
 
-  width: 0.9375rem;
+  width: 1rem;
   height: 1px;
 
   background-color: var(--accent);
@@ -654,7 +654,7 @@ video {
 }
 
 .section-descr {
-  margin-bottom: 2.69rem;
+  margin-bottom: 3rem;
 }
 
 .swiper.swiper-1 {
@@ -741,7 +741,7 @@ video {
 }
 
 .service-name {
-  margin-bottom: 0.81rem;
+  margin-bottom: 1rem;
 
   color: var(--bg-color);
   font-family: "Jost", sans-serif;
@@ -771,12 +771,12 @@ video {
 .about::before {
   content: "";
   position: absolute;
-  top: 36.25rem;
+  top: 36rem;
   left: 0;
   z-index: -10;
 
-  width: 17.875rem;
-  height: 34.06rem;
+  width: 18rem;
+  height: 34rem;
 
   background-image: url(../assets/img/architecture-2.webp);
   background-repeat: no-repeat;
@@ -786,14 +786,14 @@ video {
 .about-upper-block {
   display: grid;
   grid-template-columns: 52% 34%;
-  gap: 5.19rem;
+  gap: 5rem;
 
-  margin-bottom: 4.19rem;
+  margin-bottom: 4rem;
 }
 
 .about-text {
   margin-top: 1rem;
-  margin-bottom: 1.44rem;
+  margin-bottom: 1.5rem;
 
   background-color: var(--bg-color);
 }
@@ -872,8 +872,7 @@ video {
   justify-content: flex-end;
 
   width: 26rem;
-  height: 20.75rem;
-  padding: 1.3125rem 1.8125rem;
+  padding: 1.3rem 1.8rem;
 
   background-size: cover;
   background-position: center;
@@ -925,11 +924,11 @@ video {
 .swiper-navigation.swiper-second {
   position: absolute;
   bottom: 0;
-  left: calc(50% - (10.375rem / 2));
+  left: calc(50% - (10.5rem / 2));
   display: flex;
   justify-content: center;
 
-  width: 10.375rem;
+  width: 10.5rem;
   height: 1.25rem;
   padding-inline: 1.25rem;
 }
@@ -965,8 +964,6 @@ video {
   position: relative;
   z-index: 1;
 
-  width: 90%;
-
   user-select: none;
 
   transition: transform var(--transition);
@@ -985,7 +982,7 @@ video {
   flex-direction: column;
   gap: 0.3125rem;
 
-  margin-top: 0.75rem;
+  margin-top: 1rem;
 
   color: var(--bg-color);
 }
@@ -1003,7 +1000,7 @@ video {
 }
 
 .status-title {
-  margin-bottom: 4.19rem;
+  margin-bottom: 4rem;
 }
 
 .status-list {
@@ -1025,7 +1022,7 @@ video {
   gap: 0.625rem;
 
   width: calc((100% - 4.5rem) / 4);
-  height: 12.875rem;
+  height: 13rem;
 
   background-color: var(--status-items);
 
@@ -1061,10 +1058,10 @@ video {
 
 /* --------- PROJECTS --------- */
 
-.container.container-projects {
+.container-projects {
   position: relative;
 
-  margin-bottom: 4.19rem;
+  margin-bottom: 4rem;
 }
 
 .projects-text {
@@ -1075,10 +1072,10 @@ video {
   position: absolute;
   display: flex;
   justify-content: center;
-  top: 4.125rem;
+  top: 4rem;
   right: 0;
 
-  width: 10.375rem;
+  width: 10.5rem;
   height: 2.5rem;
 }
 
@@ -1115,7 +1112,7 @@ video {
 .swiper.swiper-3 {
   width: 100%;
   max-width: 120rem;
-  margin-bottom: 8.94rem;
+  margin-bottom: 9rem;
 }
 
 .swiper-wrapper.projects-list {
@@ -1126,7 +1123,6 @@ video {
 .projects-item {
   position: relative;
 
-  object-fit: cover;
   cursor: pointer;
 }
 
@@ -1203,7 +1199,7 @@ video {
 
   width: fit-content;
   margin-bottom: 1.25rem;
-  padding: 0.3125rem 1rem;
+  padding: 0.3rem 1rem;
 
   color: var(--bg-color);
   font-family: "Jost", sans-serif;
@@ -1234,7 +1230,7 @@ video {
 
   width: 100%;
   height: 27.69rem;
-  padding: 1.875rem;
+  padding: 2rem;
 
   opacity: 1;
   user-select: none;
@@ -3272,7 +3268,7 @@ input[type="checkbox"] {
     align-items: center;
     z-index: 10;
 
-    padding: 0.625rem 2.19rem 1.875rem;
+    padding: 0.625rem 2.19rem 1.9rem;
 
     border: 1px solid var(--dark-text);
     border-top: 1px solid var(--dark);
@@ -3282,10 +3278,10 @@ input[type="checkbox"] {
 
   .nav-list {
     justify-content: end;
-    gap: 1.125rem;
+    gap: 1rem;
 
     padding-left: 0;
-    padding-right: 1.875rem;
+    padding-right: 1.9rem;
   }
 
   .nav-link:nth-child(4) {
@@ -3299,8 +3295,8 @@ input[type="checkbox"] {
   .front-loader {
     bottom: -7.5rem;
 
-    width: 26.25rem;
-    height: 16.88rem;
+    width: 26rem;
+    height: 16.5rem;
   }
 
   .crane {
@@ -3332,7 +3328,7 @@ input[type="checkbox"] {
   }
 
   .projects-name {
-    padding: 0.75rem 1.125rem;
+    padding: 0.75rem 1rem;
   }
 
   .swiper.swiper-3 {
@@ -3560,7 +3556,7 @@ input[type="checkbox"] {
   }
 
   .container {
-    padding-inline: 1.56rem;
+    padding-inline: 1.5rem;
     margin-bottom: 5rem;
   }
 
@@ -3577,7 +3573,7 @@ input[type="checkbox"] {
   }
 
   .contacts-list {
-    padding: 0.81rem 1.25rem 0.875rem;
+    padding: 0.8rem 1.25rem 0.9rem;
   }
 
   .phone-icon-frame {
@@ -3641,11 +3637,11 @@ input[type="checkbox"] {
   }
 
   .hero-text {
-    padding-top: 5.375rem;
+    padding-top: 5.5rem;
   }
 
   .hero-descr {
-    margin-bottom: 2.25rem;
+    margin-bottom: 2.5rem;
   }
 
   .button {
@@ -3697,7 +3693,7 @@ input[type="checkbox"] {
   .about-upper-block {
     gap: 2rem;
 
-    margin-bottom: 3.125rem;
+    margin-bottom: 3rem;
   }
 
   .status-title {
@@ -3722,7 +3718,7 @@ input[type="checkbox"] {
   }
 
   .projects-name {
-    padding: 0.25rem 0.375rem;
+    padding: 0.25rem 0.4rem;
   }
 
   .swiper.swiper-3 {
@@ -3736,7 +3732,7 @@ input[type="checkbox"] {
   .process-list {
     gap: 0.875rem;
 
-    margin-bottom: 3.125rem;
+    margin-bottom: 3rem;
   }
 
   .process-button {
@@ -3906,7 +3902,7 @@ input[type="checkbox"] {
   }
 
   .container {
-    margin-bottom: 4.375rem;
+    margin-bottom: 4.4rem;
   }
 
   .logo {
@@ -3932,7 +3928,7 @@ input[type="checkbox"] {
 
   .hero {
     margin-bottom: 0;
-    padding-bottom: 4.375rem;
+    padding-bottom: 4.5rem;
   }
 
   .hero-text {
@@ -3971,11 +3967,11 @@ input[type="checkbox"] {
   }
 
   .swiper-slide.swiper-second {
-    padding: 1.31rem 0.625rem;
+    padding: 1.3rem 0.625rem;
   }
 
   .status-title {
-    margin-bottom: 2.375rem;
+    margin-bottom: 2.4rem;
   }
 
   .status-list {
@@ -3994,7 +3990,7 @@ input[type="checkbox"] {
   }
 
   .swiper.swiper-3 {
-    margin-bottom: 4.375rem;
+    margin-bottom: 4.4rem;
   }
 
   .process-button {
@@ -4191,7 +4187,7 @@ input[type="checkbox"] {
 
 @media (width <= 36rem) {
   .container {
-    margin-bottom: 3.125rem;
+    margin-bottom: 3rem;
     padding-inline: 0.94rem;
   }
 

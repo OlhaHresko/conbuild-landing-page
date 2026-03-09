@@ -139,7 +139,7 @@ window.addEventListener("scroll", onScroll);
 const swiper = new Swiper(".swiper-1", {
   slidesPerView: "auto",
   centeredSlides: true,
-  spaceBetween: 24,
+  spaceBetween: 14,
   loop: true,
   grabCursor: true,
   on: {

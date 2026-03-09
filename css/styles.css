@@ -118,7 +118,7 @@ video {
   z-index: 1000;
 
   width: 100%;
-  height: 9rem;
+  height: 9.06rem;
 
   background-color: var(--dark);
 }
@@ -155,6 +155,8 @@ video {
 .logo-background {
   width: auto;
   height: auto;
+  max-width: none;
+  object-fit: none;
 }
 
 .logo-wrapper::before {
@@ -620,7 +622,6 @@ video {
   margin-bottom: 0.94rem;
 
   color: var(--dark);
-
   font-family: "Jost", sans-serif;
   font-weight: 600;
 }
@@ -772,7 +773,7 @@ video {
   position: absolute;
   top: 36.25rem;
   left: 0;
-  z-index: 10;
+  z-index: -10;
 
   width: 17.875rem;
   height: 34.06rem;
@@ -783,22 +784,16 @@ video {
 }
 
 .about-upper-block {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 52% 34%;
   gap: 5.19rem;
 
   margin-bottom: 4.19rem;
 }
 
-.about-upper-block-left {
-  width: 42.875rem;
-}
-
 .about-text {
   margin-top: 1rem;
   margin-bottom: 1.44rem;
-
-  width: 27.44rem;
 
   background-color: var(--bg-color);
 }
@@ -874,7 +869,7 @@ video {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
 
   width: 26rem;
   height: 20.75rem;
@@ -970,11 +965,10 @@ video {
   position: relative;
   z-index: 1;
 
-  width: 80%;
+  width: 90%;
 
   user-select: none;
 
-  transform: translateY(6.31rem);
   transition: transform var(--transition);
 }
 
@@ -987,7 +981,7 @@ video {
 }
 
 .swiper-second-points {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 0.3125rem;
 
@@ -996,8 +990,8 @@ video {
   color: var(--bg-color);
 }
 
-.points-visible {
-  transform: translateY(0);
+.points-visible .swiper-second-points {
+  display: flex;
 }
 
 /* --------- STATUS --------- */
@@ -1029,7 +1023,6 @@ video {
   justify-content: center;
   align-items: center;
   gap: 0.625rem;
-  z-index: 10;
 
   width: calc((100% - 4.5rem) / 4);
   height: 12.875rem;
@@ -1855,7 +1848,7 @@ iframe {
   position: absolute;
   top: 37.25rem;
   left: 0;
-  z-index: 10;
+  z-index: -10;
 
   width: 17.88rem;
   height: 34.06rem;
@@ -3310,12 +3303,23 @@ input[type="checkbox"] {
     height: 16.88rem;
   }
 
+  .crane {
+    bottom: -9.5rem;
+    width: 3.125rem;
+    height: auto;
+  }
+
   .hero {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
   }
 
   .container-services {
     gap: 3.44rem;
+  }
+
+  .about-upper-block {
+    grid-template-columns: 50% 46%;
+    gap: 2rem;
   }
 
   .projects-item-content {
@@ -3375,7 +3379,7 @@ input[type="checkbox"] {
 
 @media (width <= 75rem) {
   .header {
-    height: 8rem;
+    height: 8.06rem;
   }
 
   .container {
@@ -3434,12 +3438,6 @@ input[type="checkbox"] {
 
     width: 21.875rem;
     height: 14.06rem;
-  }
-
-  .crane {
-    bottom: -9.5rem;
-    width: 3.125rem;
-    height: auto;
   }
 
   .container-services {
@@ -3678,21 +3676,12 @@ input[type="checkbox"] {
     height: 100%;
   }
 
-  .about-swiper-content {
-    position: absolute;
-    top: 8.125rem;
+  .about-upper-block {
+    gap: 1rem;
   }
 
-  .swiper-second-points {
+  .about-span {
     display: none;
-  }
-
-  .points-visible {
-    top: 1.875rem;
-  }
-
-  .points-show {
-    display: flex;
   }
 
   .about::before {
@@ -3702,13 +3691,9 @@ input[type="checkbox"] {
   }
 
   .about-upper-block {
-    gap: 3.125rem;
+    gap: 2rem;
 
     margin-bottom: 3.125rem;
-  }
-
-  .about-text {
-    width: 23.75rem;
   }
 
   .status-title {
@@ -3913,7 +3898,7 @@ input[type="checkbox"] {
 
 @media (width <= 48rem) {
   .header {
-    height: 7rem;
+    height: 7.06rem;
   }
 
   .container {
@@ -3975,22 +3960,10 @@ input[type="checkbox"] {
     width: 12.5rem;
   }
 
-  .swiper-second-name {
-    text-align: center;
-  }
-
   .about-upper-block {
-    gap: 1.875rem;
+    gap: 1rem;
 
     margin-bottom: 2.5rem;
-  }
-
-  .about-text {
-    width: 21.88rem;
-  }
-
-  .about-span-reflection {
-    top: 50%;
   }
 
   .swiper-slide.swiper-second {
@@ -4410,7 +4383,7 @@ input[type="checkbox"] {
   }
 
   .about-swiper-content {
-    top: 5.625rem;
+    top: 0;
     left: 50%;
 
     text-align: center;
@@ -4423,34 +4396,15 @@ input[type="checkbox"] {
   }
 
   .about-upper-block {
+    display: flex;
     flex-direction: column;
     gap: 0.75rem;
 
     width: 100%;
   }
 
-  .about-right-block {
-    gap: 0.75rem;
-    justify-content: space-between;
-
-    width: 100%;
-  }
-
-  .about-upper-block-left {
-    width: 100%;
-  }
-
   .about-text {
-    width: 100%;
     margin-top: 0;
-  }
-
-  .swiper-wrapper.swiper-second {
-    padding-bottom: 2.5rem;
-  }
-
-  .swiper-slide.swiper-second {
-    width: 100%;
   }
 
   .status-title {

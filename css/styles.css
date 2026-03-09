@@ -3680,8 +3680,12 @@ input[type="checkbox"] {
     gap: 1rem;
   }
 
-  .about-span {
+  .about-span-container {
     display: none;
+  }
+
+  .about-right-block {
+    width: fit-content;
   }
 
   .about::before {
@@ -3967,8 +3971,6 @@ input[type="checkbox"] {
   }
 
   .swiper-slide.swiper-second {
-    width: 26rem;
-    height: 20.75rem;
     padding: 1.31rem 0.625rem;
   }
 
@@ -4401,6 +4403,7 @@ input[type="checkbox"] {
     gap: 0.75rem;
 
     width: 100%;
+    margin-bottom: 1.44rem;
   }
 
   .about-text {

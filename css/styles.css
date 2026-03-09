@@ -1058,7 +1058,7 @@ video {
 
 /* --------- PROJECTS --------- */
 
-.container-projects {
+.container.container-projects {
   position: relative;
 
   margin-bottom: 4rem;
@@ -1198,7 +1198,7 @@ video {
   display: inline-block;
 
   width: fit-content;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   padding: 0.3rem 1rem;
 
   color: var(--bg-color);
@@ -1263,13 +1263,13 @@ video {
 }
 
 .section-name.process-name {
-  margin-bottom: 0.94rem;
+  margin-bottom: 1rem;
 }
 
 .section-title.process-title {
   width: fit-content;
   padding-inline: 0.625rem;
-  margin: 0 auto 2.31rem;
+  margin: 0 auto 2.3rem;
 }
 
 .process-list {
@@ -3208,19 +3208,6 @@ input[type="checkbox"] {
 
 /* --------- MEDIA QUERIES --------- */
 
-/* --------- DESKTOP (<=100rem) --------- */
-
-@media (width <= 100rem) {
-  .projects-item-content {
-    height: 25.625rem;
-    padding: 1.625rem;
-  }
-
-  .projects-type {
-    margin-bottom: 1rem;
-  }
-}
-
 /* --------- DESKTOP (<=90rem) --------- */
 
 @media (width <= 90rem) {
@@ -3328,7 +3315,7 @@ input[type="checkbox"] {
   }
 
   .projects-name {
-    padding: 0.75rem 1rem;
+    padding: 0.5rem;
   }
 
   .swiper.swiper-3 {
@@ -3453,10 +3440,6 @@ input[type="checkbox"] {
     padding: 0.125rem 0.625rem;
 
     font-size: 0.875rem;
-  }
-
-  .projects-name {
-    padding: 0.75rem 1.125rem;
   }
 
   .projects-item-button-container {
@@ -3730,7 +3713,7 @@ input[type="checkbox"] {
   }
 
   .process-list {
-    gap: 0.875rem;
+    gap: 1rem;
 
     margin-bottom: 3rem;
   }

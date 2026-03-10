@@ -1262,10 +1262,6 @@ video {
   text-align: center;
 }
 
-.section-name.process-name {
-  margin-bottom: 1rem;
-}
-
 .section-title.process-title {
   width: fit-content;
   padding-inline: 0.625rem;
@@ -1405,11 +1401,11 @@ iframe {
 .testimonials::before {
   content: "";
   position: absolute;
-  top: -8.88rem;
+  top: -9rem;
   left: 0;
 
-  width: 17.875rem;
-  height: 34.06rem;
+  width: 18rem;
+  height: 34rem;
 
   background-image: url(../assets/img/architecture-2.webp);
   background-repeat: no-repeat;
@@ -1426,49 +1422,45 @@ iframe {
   position: relative;
   z-index: 10;
 
-  max-width: 41.625rem;
+  max-width: 41.5rem;
   width: 100%;
 
   background-color: var(--bg-color);
 }
 
-.section-name.testimonials-section-name {
-  margin-bottom: 0.94rem;
-}
-
 .section-title.testimonials-title {
-  margin-bottom: 0.44rem;
+  margin-bottom: 0.5rem;
 }
 
 .testimonials-main {
   display: flex;
   flex-direction: row;
 
-  margin-bottom: 2.69rem;
+  margin-bottom: 3rem;
 
   background-color: var(--bg-color);
 }
 
 .testimonials-main-left {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   min-width: 0;
-  padding-right: 1.875rem;
+  padding-right: 2rem;
 }
 
 .testimonials-reviews {
-  max-width: 59.375rem;
+  max-width: 59.5rem;
   width: 100%;
-  margin-bottom: 2.06rem;
 }
 
 .testimonials-review {
   display: none;
 
   width: 100%;
-  padding-top: 3.31rem;
+  padding: 3.3rem 0 2rem;
 
   color: var(--dark-text);
   font-family: "Jost", sans-serif;
@@ -1483,20 +1475,20 @@ iframe {
 .testimonials-persons-block {
   display: flex;
   flex-direction: row;
-  gap: 2.31rem;
+  gap: 2.3rem;
 }
 
 .testimonials-quote {
-  width: 5.375rem;
-  height: 3.875rem;
+  width: 5.4rem;
+  height: 3.9rem;
 
   fill: var(--dark);
   stroke: var(--dark);
 }
 
 .testimonials-quote-line {
-  width: 2.52rem;
-  height: 17.56rem;
+  width: 2.5rem;
+  height: 17.5rem;
 }
 
 .testimonials-name {
@@ -1533,15 +1525,15 @@ iframe {
   flex-shrink: 0;
   gap: 0.625rem;
 
-  width: 6.875rem;
-  margin-left: 4.31rem;
+  width: 6.9rem;
+  margin-left: 4.3rem;
 
   background-color: var(--bg-color);
 }
 
 .testimonials-photo {
-  width: 4.375rem;
-  height: 4.375rem;
+  width: 4.4rem;
+  height: 4.4rem;
 
   border-radius: 50%;
 
@@ -1551,8 +1543,8 @@ iframe {
 }
 
 .testimonials-photo.active {
-  width: 6.875rem;
-  height: 6.875rem;
+  width: 6.9rem;
+  height: 6.9rem;
 
   border: 2px solid var(--accent);
 }
@@ -1562,7 +1554,7 @@ iframe {
   bottom: -2px;
 
   width: 36%;
-  height: 0.19rem;
+  height: 0.2rem;
 
   background-color: var(--dark);
 }
@@ -1596,10 +1588,6 @@ iframe {
   gap: 1.25rem;
 
   margin-bottom: 9.375rem;
-}
-
-.section-name.team-section-name {
-  margin-bottom: 0.875rem;
 }
 
 .section-title.team-title {
@@ -1695,10 +1683,6 @@ iframe {
   padding-bottom: 14.75rem;
 
   text-align: center;
-}
-
-.section-name.pricing-name {
-  margin-bottom: 0.875rem;
 }
 
 .section-title.pricing-title {
@@ -3732,7 +3716,7 @@ input[type="checkbox"] {
   }
 
   .testimonials-persons-block {
-    gap: 1.625rem;
+    gap: 1.6rem;
   }
 
   .testimonials-quote-line {
@@ -3740,12 +3724,12 @@ input[type="checkbox"] {
   }
 
   .testimonials-quote {
-    width: 4.625rem;
-    height: 3.31rem;
+    width: 4.6rem;
+    height: 3.3rem;
   }
 
   .testimonials-photos {
-    margin-left: 3.125rem;
+    margin-left: 3.1rem;
   }
 
   .testimonials-hr {
@@ -3995,15 +3979,15 @@ input[type="checkbox"] {
   }
 
   .testimonials-main {
-    margin-bottom: 2.25rem;
+    margin-bottom: 2.3rem;
   }
 
   .testimonials-main-left {
-    padding-right: 0.875rem;
+    padding-right: 1rem;
   }
 
   .testimonials-text {
-    max-width: 23.75rem;
+    max-width: 23.8rem;
   }
 
   .testimonials-review {
@@ -4019,12 +4003,12 @@ input[type="checkbox"] {
   }
 
   .testimonials-quote {
-    width: 3.375rem;
-    height: 2.44rem;
+    width: 3.4rem;
+    height: 2.5rem;
   }
 
   .testimonials-photos {
-    margin-left: 0.875rem;
+    margin-left: 0.9rem;
   }
 
   .testimonials-hr {
@@ -4041,7 +4025,7 @@ input[type="checkbox"] {
 
   .section-title.team-title {
     width: fit-content;
-    margin: 0 auto 0.56rem;
+    margin: 0 auto 0.6rem;
   }
 
   .team-image {
@@ -4410,10 +4394,6 @@ input[type="checkbox"] {
     margin-bottom: 3.125rem;
   }
 
-  .section-name.process-name {
-    margin-bottom: 0.75rem;
-  }
-
   .section-title.process-title {
     margin-bottom: 1.625rem;
   }
@@ -4451,11 +4431,11 @@ input[type="checkbox"] {
   }
 
   .testimonials-text {
-    max-width: 18.75rem;
+    max-width: 18.8rem;
   }
 
   .testimonials-review {
-    padding-top: 1.875rem;
+    padding-top: 2rem;
   }
 
   .testimonials-persons-block {
@@ -4463,8 +4443,8 @@ input[type="checkbox"] {
   }
 
   .testimonials-quote {
-    width: 1.875rem;
-    height: 1.375rem;
+    width: 1.9rem;
+    height: 1.4rem;
   }
 
   .testimonials-photos {

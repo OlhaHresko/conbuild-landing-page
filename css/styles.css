@@ -95,9 +95,9 @@ video {
 
 .container {
   width: 100%;
-  max-width: 82.5625rem;
+  max-width: 82.5rem;
   margin: 0 auto;
-  margin-bottom: 8.94rem;
+  margin-bottom: 9rem;
   padding-inline: 0.75rem;
 }
 
@@ -1568,12 +1568,12 @@ iframe {
 .team::before {
   content: "";
   position: absolute;
-  top: -8.875rem;
+  top: -9rem;
   right: 0;
   z-index: -10;
 
-  width: 17.875rem;
-  height: 34.06rem;
+  width: 18rem;
+  height: 34rem;
 
   background-image: url(../assets/img/architecture.webp);
   background-repeat: no-repeat;
@@ -1586,8 +1586,6 @@ iframe {
   justify-content: space-between;
   align-items: center;
   gap: 1.25rem;
-
-  margin-bottom: 9.375rem;
 }
 
 .section-title.team-title {
@@ -1595,23 +1593,20 @@ iframe {
 }
 
 .team-descr {
-  max-width: 27.44rem;
-  width: 100%;
-  margin-bottom: 2.69rem;
+  max-width: 27.5rem;
+  margin-bottom: 2.7rem;
 }
 
 .team-text {
-  max-width: 30.19rem;
-  width: 100%;
-  padding-bottom: 2.75rem;
+  max-width: 30rem;
+  /* padding-bottom: 3rem; */
 }
 
 .team-image {
   display: none;
 
   max-width: 26rem;
-  width: 100%;
-  height: 29.94rem;
+  height: 30rem;
 
   background-color: var(--light);
 
@@ -1625,7 +1620,7 @@ iframe {
 .team-members {
   display: flex;
   flex-direction: column;
-  gap: 2.19rem;
+  gap: 2.2rem;
   flex-shrink: 5;
 
   max-width: 16.81rem;
@@ -3464,12 +3459,16 @@ input[type="checkbox"] {
     margin-bottom: 3.125rem;
   }
 
-  .team-image {
-    min-width: 21.875rem;
-  }
+  /* .team-image {
+    min-width: 22rem;
+  } */
+
+   .team-descr {
+    margin-bottom: 1rem;
+   }
 
   .team-members {
-    min-width: 12.56rem;
+    min-width: 12.6rem;
   }
 
   .pricing-container {
@@ -3737,19 +3736,25 @@ input[type="checkbox"] {
   }
 
   .team-container {
-    gap: 0.875rem;
+    align-items: end;
+    gap: 1rem;
 
     margin-bottom: 2.5rem;
   }
 
   .team-image {
     min-width: 17.5rem;
+    max-width: 19rem;
     height: 23.06rem;
   }
 
   .team-members {
-    min-width: 10.5rem;
+    min-width: 11.3rem;
   }
+/* 
+  .team-descr {
+    margin-bottom: 1rem;
+  } */
 
   .pricing-container {
     padding-top: 2.5rem;

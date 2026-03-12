@@ -90,7 +90,7 @@ video {
 }
 
 [id] {
-  scroll-margin-top: 13.4375rem;
+  scroll-margin-top: 13rem;
 }
 
 .container {
@@ -1586,6 +1586,8 @@ iframe {
   justify-content: space-between;
   align-items: center;
   gap: 1.25rem;
+
+  margin-bottom: 4.5rem;
 }
 
 .section-title.team-title {
@@ -1599,7 +1601,6 @@ iframe {
 
 .team-text {
   max-width: 30rem;
-  /* padding-bottom: 3rem; */
 }
 
 .team-image {
@@ -1664,24 +1665,21 @@ iframe {
 /* --------- PRICING --------- */
 
 .pricing {
-  scroll-margin-top: 9.06rem;
-
   background-color: var(--status-items);
   background-image: url(../assets/img/map.webp);
   background-repeat: no-repeat;
-  background-size: 62.31rem 40rem;
+  background-size: 62rem 40rem;
   background-position: 0 0;
 }
 
 .pricing-container {
-  padding-top: 8.94rem;
-  padding-bottom: 14.75rem;
+  padding-top: 4.5rem;
 
   text-align: center;
 }
 
 .section-title.pricing-title {
-  margin-bottom: 4.19rem;
+  margin-bottom: 4rem;
 
   background-color: transparent;
 }
@@ -1708,7 +1706,7 @@ iframe {
 }
 
 .price-line {
-  margin-bottom: 0.81rem;
+  margin-bottom: 0.8rem;
 }
 
 .price {
@@ -1730,7 +1728,7 @@ iframe {
   gap: 1rem;
   align-items: center;
 
-  margin-bottom: 1.69rem;
+  margin-bottom: 1.7rem;
 }
 
 .price-icon-star {
@@ -1743,8 +1741,8 @@ iframe {
   flex-direction: column;
   gap: 0.125rem;
 
-  padding-top: 1.19rem;
-  margin-bottom: 2.375rem;
+  padding-top: 1.2rem;
+  margin-bottom: 2.4rem;
 
   border-top: 1px solid var(--contacts-color);
 }
@@ -1782,7 +1780,7 @@ iframe {
 }
 
 .pricing-button {
-  padding: 0.75rem 2.19rem;
+  padding: 0.75rem 2.2rem;
 }
 
 .pricing-rectangle {
@@ -1803,7 +1801,7 @@ iframe {
   display: block;
 
   width: 6.25rem;
-  height: 1.875rem;
+  height: 1.9rem;
 
   background-color: #39ca6e;
   border-radius: 1.25rem;
@@ -3320,8 +3318,6 @@ input[type="checkbox"] {
 
   .pricing-container {
     padding-top: 3.75rem;
-    padding-bottom: 3.75rem;
-    margin-bottom: 3.75rem;
   }
 
   .blog-main-article {
@@ -3459,10 +3455,6 @@ input[type="checkbox"] {
     margin-bottom: 3.125rem;
   }
 
-  /* .team-image {
-    min-width: 22rem;
-  } */
-
    .team-descr {
     margin-bottom: 1rem;
    }
@@ -3473,20 +3465,18 @@ input[type="checkbox"] {
 
   .pricing-container {
     padding-top: 3.125rem;
-    padding-bottom: 3.125rem;
-    margin-bottom: 3.125rem;
   }
 
   .section-title.pricing-title {
-    margin-bottom: 3.125rem;
+    margin-bottom: 3rem;
   }
 
   .pricing-features {
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.9rem;
   }
 
   .pricing-item {
-    padding: 2.75rem 1.875rem 2.75rem;
+    padding: 2.75rem 1.9rem 2.75rem;
   }
 
   .status-title {
@@ -3751,15 +3741,9 @@ input[type="checkbox"] {
   .team-members {
     min-width: 11.3rem;
   }
-/* 
-  .team-descr {
-    margin-bottom: 1rem;
-  } */
 
   .pricing-container {
     padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    margin-bottom: 2.5rem;
   }
 
   .section-title.pricing-title {
@@ -3789,7 +3773,7 @@ input[type="checkbox"] {
     gap: 0;
 
     padding-top: 1rem;
-    margin-bottom: 1.625rem;
+    margin-bottom: 1.6rem;
   }
 
   .pricing-feature {
@@ -3808,9 +3792,9 @@ input[type="checkbox"] {
     right: 0.5rem;
 
     width: 5rem;
-    height: 1.56rem;
+    height: 1.6rem;
 
-    font-size: 0.875rem;
+    font-size: 0.9rem;
   }
 
   .blog-list {
@@ -4064,17 +4048,15 @@ input[type="checkbox"] {
   }
 
   .pricing-container {
-    padding-top: 2.19rem;
-    padding-bottom: 2.19rem;
-    margin-bottom: 2.19rem;
+    padding-top: 2.2rem;
   }
 
   .section-title.pricing-title {
-    margin-bottom: 2.19rem;
+    margin-bottom: 2.2rem;
   }
 
   .pricing-item {
-    padding: 2.5rem 0.625rem 2.19rem;
+    padding: 2.5rem 0.625rem 2.2rem;
   }
 
   .pricing-features {
@@ -4521,13 +4503,11 @@ input[type="checkbox"] {
   }
 
   .pricing-container {
-    padding-top: 1.56rem;
-    padding-bottom: 1.56rem;
-    margin-bottom: 1.56rem;
+    padding-top: 1.6rem;
   }
 
   .section-title.pricing-title {
-    margin-bottom: 1.56rem;
+    margin-bottom: 1.6rem;
   }
 
   .pricing-list {

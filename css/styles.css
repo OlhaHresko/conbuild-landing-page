@@ -5,6 +5,7 @@
   --dark: #0e0e0e;
   --accent: #fb5b11;
   --accent-hover: #d84c16;
+  --accent-price: #39ca6e;
   --light-text: #d8d8d8;
   --dark-text: #555555;
   --contacts-color: #cdcdcd;
@@ -573,6 +574,7 @@ video {
 .button.accent:focus {
   transform: scale(1.05);
 }
+
 .hero-portrait {
   flex: 600 1 40%;
   align-self: center;
@@ -1253,9 +1255,7 @@ video {
   background-image: url(../assets/img/architecture.webp);
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: right 0 top 0.4375rem;
-
-  overflow: visible;
+  background-position: right 0 top 0.4rem;
 }
 
 .process-container {
@@ -1622,16 +1622,11 @@ iframe {
   display: flex;
   flex-direction: column;
   gap: 2.2rem;
-  flex-shrink: 5;
 
   max-width: 16.81rem;
-  width: 100%;
 }
 
 .team-members > li {
-  position: relative;
-  z-index: 10;
-
   background-color: var(--bg-color);
 }
 
@@ -1651,7 +1646,7 @@ iframe {
 .team-member-name.active {
   margin-bottom: 0;
 
-  color: #ff6600;
+  color: var(--accent);
   font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
   line-height: 1.313;
   text-decoration: underline;
@@ -1668,7 +1663,7 @@ iframe {
   background-color: var(--status-items);
   background-image: url(../assets/img/map.webp);
   background-repeat: no-repeat;
-  background-size: 62rem 40rem;
+  background-size: cover;
   background-position: 0 0;
 }
 
@@ -1792,6 +1787,8 @@ iframe {
   height: 3.125rem;
 
   fill: var(--dark);
+  
+  transition: fill var(--transition);
 }
 
 .pricing-special {
@@ -1803,7 +1800,7 @@ iframe {
   width: 6.25rem;
   height: 1.9rem;
 
-  background-color: #39ca6e;
+  background-color: var(--accent-price);
   border-radius: 1.25rem;
 
   color: var(--bg-color);
@@ -1819,12 +1816,12 @@ iframe {
 .blog::before {
   content: "";
   position: absolute;
-  top: 37.25rem;
+  top: 37rem;
   left: 0;
   z-index: -10;
 
-  width: 17.88rem;
-  height: 34.06rem;
+  width: 18rem;
+  height: 34rem;
 
   background-image: url(../assets/img/architecture-2.webp);
   background-repeat: no-repeat;
@@ -1832,7 +1829,7 @@ iframe {
 }
 
 .container.blog-container {
-  margin-bottom: 4.56rem;
+  margin-bottom: 4.5rem;
 
   text-align: center;
 }
@@ -1845,7 +1842,7 @@ iframe {
 
   text-align: start;
 
-  margin-bottom: 1.875rem;
+  margin-bottom: 2rem;
 }
 
 .blog-main-article-pic-wrapper {
@@ -1856,12 +1853,12 @@ iframe {
 
 .blog-main-article-date {
   position: absolute;
-  top: 1.667rem;
+  top: 1.7rem;
   display: block;
 
-  width: 8.06rem;
-  height: 7.69rem;
-  padding: 1.5rem 1.81rem 1.94rem 1.875rem;
+  width: 8rem;
+  height: 7.7rem;
+  padding: 1.5rem 1.8rem 2rem;
 
   background-image: url(../assets/img/date.png);
   background-size: contain;
@@ -1877,8 +1874,8 @@ iframe {
 
 .blog-main-article-pic {
   width: 100%;
-  max-width: 39.75rem;
-  height: 22.56rem;
+  max-width: 40rem;
+  height: 22.5rem;
 
   background-color: var(--light);
 
@@ -1886,14 +1883,14 @@ iframe {
 }
 
 .blog-main-article-text {
-  max-width: 28.69rem;
+  max-width: 28.7rem;
   min-width: 0;
   padding-top: 1.25rem;
 }
 
 .blog-descr {
-  padding-left: 2.56rem;
-  margin-bottom: 0.81rem;
+  padding-left: 2.6rem;
+  margin-bottom: 0.8rem;
 }
 
 .blog-author {
@@ -1945,8 +1942,8 @@ iframe {
 }
 
 .blog-main-article-paragraph {
-  max-width: 26.19rem;
-  margin-bottom: 1.375rem;
+  max-width: 26.2rem;
+  margin-bottom: 1.5rem;
 }
 
 .blog-button {
@@ -1986,7 +1983,7 @@ iframe {
   flex-wrap: wrap;
   gap: 1.5rem;
 
-  margin-bottom: 2.625rem;
+  margin-bottom: 2.6rem;
 }
 
 .blog-article {
@@ -1994,7 +1991,7 @@ iframe {
   z-index: 10;
 
   width: calc((100% - 3rem) / 3);
-  min-height: 32.875rem;
+  min-height: 33rem;
   padding: 1.875rem 1.875rem 1.44rem;
 
   border: 1px solid var(--light-text);
@@ -2029,11 +2026,11 @@ iframe {
 }
 
 .blog-descr.blog-descr-other {
-  margin-bottom: 1.06rem;
+  margin-bottom: 1rem;
 }
 
 .blog-article-title {
-  margin-bottom: 0.875rem;
+  margin-bottom: 0.9rem;
 
   color: var(--dark);
   text-transform: capitalize;
@@ -2060,12 +2057,12 @@ iframe {
 
 .blog-article-date {
   position: absolute;
-  top: 14.875rem;
+  top: 15rem;
   right: 2.5rem;
 
-  width: 4.56rem;
-  height: 4.25rem;
-  padding: 0.5rem 0.81rem 0.5rem 0.75rem;
+  width: 4.6rem;
+  height: 4.3rem;
+  padding: 0.5rem 0.8rem;
 
   background-image: url(../assets/img/date.png);
   background-size: contain;

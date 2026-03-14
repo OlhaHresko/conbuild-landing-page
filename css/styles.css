@@ -2213,8 +2213,8 @@ iframe {
   top: 0;
   right: 0;
 
-  width: 2.375rem;
-  height: 1.94rem;
+  width: 2.4rem;
+  height: 2rem;
 
   border: none;
 
@@ -2241,8 +2241,8 @@ iframe {
 }
 
 .footer-lower > div:nth-child(1) {
-  width: 25.44rem;
-  margin-right: 9.38rem;
+  width: 25.5rem;
+  margin-right: 9.4rem;
 }
 
 .footer-lower > div:nth-child(2) {
@@ -2256,7 +2256,7 @@ iframe {
 }
 
 .footer-lower > div:nth-child(4) {
-  width: 12.19rem;
+  width: 12.2rem;
 }
 
 .footer-logo {

@@ -1660,6 +1660,7 @@ iframe {
 /* --------- PRICING --------- */
 
 .pricing {
+  padding-top: 4.5rem;
   padding-bottom: 4.5rem;
   margin-bottom: 4.5rem;
   
@@ -1672,8 +1673,7 @@ iframe {
 
 .pricing-container {
   margin-bottom: 0;
-  padding-top: 4.5rem;
-
+  
   text-align: center;
 }
 
@@ -3318,12 +3318,12 @@ input[type="checkbox"] {
   }
 
   .pricing {
+    padding-top: 3.75rem;
     padding-bottom: 3.75rem;
     margin-bottom: 3.75rem;
   }
 
   .pricing-container {
-    padding-top: 3.75rem;
     margin-bottom: 0;
   }
 
@@ -3471,12 +3471,12 @@ input[type="checkbox"] {
   }
 
   .pricing {
+    padding-top: 3rem;
     padding-bottom: 3rem;
     margin-bottom: 3rem;
   }
 
   .pricing-container {
-    padding-top: 3.125rem;
     margin-bottom: 0;
   }
 
@@ -3756,12 +3756,12 @@ input[type="checkbox"] {
   }
 
   .pricing {
+    padding-top: 2.5rem;
     padding-bottom: 2.5rem;
     margin-bottom: 2.5rem;
   }
 
   .pricing-container {
-    padding-top: 2.5rem;
     margin-bottom: 0;
   }
 
@@ -4067,12 +4067,12 @@ input[type="checkbox"] {
   }
 
   .pricing {
+    padding-top: 2.25rem;
     padding-bottom: 2.25rem;
     margin-bottom: 2.25rem;
   }
 
   .pricing-container {
-    padding-top: 2.2rem;
     margin-bottom: 0;
   }
 
@@ -4524,13 +4524,14 @@ input[type="checkbox"] {
   }
 
   .pricing {
+    padding-top: 1.5rem;
     padding-bottom: 1.5erm;
     margin-bottom: 1.5rem;
+
     background-repeat: repeat;
   }
 
   .pricing-container {
-    padding-top: 1.6rem;
     margin-bottom: 0;
   }
 

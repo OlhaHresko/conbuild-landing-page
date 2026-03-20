@@ -3816,6 +3816,10 @@ input[type="checkbox"] {
     font-size: 0.9rem;
   }
 
+  .pricing-button {
+    margin: 0 auto;
+  }
+
   .blog-list {
     gap: 0.625rem;
 
@@ -4556,10 +4560,6 @@ input[type="checkbox"] {
 
       height: 6.5rem;
     }
-  }
-
-  .pricing-button {
-    margin: 0 auto;
   }
 
   .blog-main-article-date {

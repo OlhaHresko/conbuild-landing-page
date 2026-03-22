@@ -1,6 +1,7 @@
 /* --------- GENERAL --------- */
 
 :root {
+  /* --- COLORS --- */
   --bg-color: #ffffff;
   --dark: #0e0e0e;
   --accent: #fb5b11;
@@ -12,6 +13,11 @@
   --status-items: #f8f8f8;
   --light: #d9d9d9;
   --footer-light: rgba(255, 255, 255, 0.7);
+  /* --- TYPOGRAPHY --- */
+  /* --- SPACING --- */
+  /* --- BORDER RADIUS */
+  /* --- SHADOWS --- */
+  /* --- TRANSITIONS --- */
   --transition: 0.3s ease;
 }
 

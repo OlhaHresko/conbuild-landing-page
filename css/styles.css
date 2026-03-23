@@ -14,6 +14,9 @@
   --light: #d9d9d9;
   --footer-light: rgba(255, 255, 255, 0.7);
   /* --- TYPOGRAPHY --- */
+  --font-main: "Barlow", sans-serif;
+  --font-accent: "Jost", sans-serif;
+  --font-copyright: "DM Sans", sans-serif;
   /* --- SPACING --- */
   /* --- BORDER RADIUS */
   /* --- SHADOWS --- */
@@ -48,7 +51,7 @@ body {
   background-color: var(--bg-color);
 
   color: var(--dark-text);
-  font-family: "Barlow", sans-serif;
+  font-family: var(--font-main);
   font-size: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
   line-height: 1.625;
 
@@ -204,7 +207,7 @@ video {
 
 .logo-name {
   color: var(--bg-color);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: 2rem;
   font-weight: 600;
   line-height: 1;
@@ -445,7 +448,7 @@ video {
 
 .phone-text-number {
   color: var(--bg-color);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: 1rem;
   font-weight: 600;
 }
@@ -513,7 +516,7 @@ video {
   margin-bottom: 0.5rem;
 
   color: var(--bg-color);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: clamp(2.375rem, -0.8393rem + 8.9286vw, 9.875rem);
   font-weight: 600;
   line-height: 0.873;
@@ -536,7 +539,7 @@ video {
   width: fit-content;
   padding: 1rem 2.2rem;
 
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
   font-weight: 600;
   line-height: 1.625;
@@ -630,7 +633,7 @@ video {
   margin-bottom: 1rem;
 
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-weight: 600;
 }
 
@@ -651,7 +654,7 @@ video {
   background-color: var(--bg-color);
 
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: clamp(1.875rem, 1.4821rem + 1.9643vw, 3.25rem);
   font-weight: 600;
   line-height: 1.192;
@@ -752,7 +755,7 @@ video {
   margin-bottom: 1rem;
 
   color: var(--bg-color);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.417;
@@ -822,7 +825,7 @@ video {
 
 .about-span {
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: clamp(1rem, 0.7143rem + 1.4286vw, 2rem);
   font-weight: 600;
   line-height: 1;
@@ -837,7 +840,7 @@ video {
   height: 100%;
 
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: clamp(1rem, 0.7143rem + 1.4286vw, 2rem);
   font-weight: 600;
   line-height: 1;
@@ -979,7 +982,7 @@ video {
 
 .swiper-second-name {
   color: var(--bg-color);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: clamp(1.375rem, 1.1964rem + 0.8929vw, 2rem);
   font-weight: 600;
   line-height: 1.313;
@@ -1016,7 +1019,7 @@ video {
   flex-direction: row;
   gap: 1.5rem;
 
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
 
   cursor: default;
   user-select: none;
@@ -1210,7 +1213,7 @@ video {
   padding: 0.3rem 1rem;
 
   color: var(--bg-color);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-weight: 600;
 
   background-color: var(--accent);
@@ -1223,7 +1226,7 @@ video {
   padding: 1rem 1.5rem;
 
   color: var(--bg-color);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: clamp(1.125rem, 0.875rem + 1.25vw, 2rem);
   font-weight: 600;
   line-height: 1.313;
@@ -1293,7 +1296,7 @@ video {
   background-color: var(--bg-color);
 
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: clamp(1rem, 0.8571rem + 0.7143vw, 1.5rem);
   font-weight: 600;
   line-height: 1.417;
@@ -1469,7 +1472,7 @@ iframe {
   padding: 3.3rem 0 2rem;
 
   color: var(--dark-text);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: clamp(1rem, 0.7143rem + 1.4286vw, 2rem);
   line-height: 1.313;
 }
@@ -1501,7 +1504,7 @@ iframe {
   display: none;
 
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: clamp(1rem, 0.7143rem + 1.4286vw, 2rem);
   font-weight: 600;
   line-height: 1.15;
@@ -1640,7 +1643,7 @@ iframe {
   margin-bottom: 0.1875rem;
 
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: clamp(1.125rem, 1.0179rem + 0.5357vw, 1.5rem);
   font-weight: 600;
   line-height: 1.417;
@@ -1716,14 +1719,14 @@ iframe {
 
 .price {
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: clamp(1.5rem, 1.3571rem + 0.7143vw, 2rem);
   font-weight: 600;
   line-height: 1.313;
 }
 
 .price-span {
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-weight: 600;
 }
 
@@ -1758,7 +1761,7 @@ iframe {
   padding-left: 0.875rem;
 
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   line-height: 2.25;
 }
 
@@ -1945,7 +1948,7 @@ iframe {
   margin-bottom: 0.75rem;
 
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: clamp(1.625rem, 1.5179rem + 0.5357vw, 2rem);
   font-weight: 600;
   line-height: 1.313;
@@ -1969,7 +1972,7 @@ iframe {
   background-color: transparent;
 
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: 1rem;
   font-weight: 600;
   fill: var(--dark);
@@ -2044,7 +2047,7 @@ iframe {
 
   color: var(--dark);
   text-transform: capitalize;
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: clamp(1rem, 0.8571rem + 0.7143vw, 1.5rem);
   font-weight: 600;
   line-height: 1.417;
@@ -2168,7 +2171,7 @@ iframe {
   width: 25.2rem;
 
   color: var(--bg-color);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
   font-weight: 600;
   line-height: 1.313;
@@ -2288,7 +2291,7 @@ iframe {
   margin-top: 2.25rem;
 
   color: var(--bg-color);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -2303,7 +2306,7 @@ iframe {
   margin-bottom: 1.5rem;
 
   color: var(--bg-color);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-weight: 600;
 }
 
@@ -2334,7 +2337,7 @@ iframe {
   background-color: #000000;
 
   color: var(--footer-light);
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--font-copyright);
   font-size: clamp(0.75rem, 0.6786rem + 0.3571vw, 1rem);
   text-transform: capitalize;
 }
@@ -2401,7 +2404,7 @@ iframe {
   margin-bottom: 0.875rem;
 
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.417;
@@ -2495,7 +2498,7 @@ iframe {
 .modal-blog-article-paragraph {
   margin-bottom: 1.25rem;
 
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: 1.06rem;
   font-weight: 600;
 }
@@ -2594,7 +2597,7 @@ iframe {
   margin-bottom: 3.125rem;
 
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.313;
@@ -2684,7 +2687,7 @@ iframe {
   margin-bottom: 1.25rem;
 
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.313;
@@ -2700,7 +2703,7 @@ iframe {
   background-color: var(--accent);
 
   color: var(--bg-color);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: 1.125rem;
   font-weight: 600;
 }
@@ -2758,7 +2761,7 @@ iframe {
   margin-bottom: 2.5rem;
 
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.313;
@@ -2787,7 +2790,7 @@ iframe {
 
 .modal-team-name {
   color: var(--dark);
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: 1.75rem;
   font-weight: 600;
   line-height: 1.417;
@@ -2842,7 +2845,7 @@ iframe {
   max-height: 95vh;
   padding: 4rem 4rem 3rem;
 
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
 
   overflow-y: auto;
 }
@@ -2977,7 +2980,7 @@ iframe {
   border: none;
   border-bottom: 1px solid var(--accent);
 
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: 1rem;
   letter-spacing: 0.125rem;
 }
@@ -3048,7 +3051,7 @@ input:-webkit-autofill:active {
   border: 1px solid var(--accent);
   border-radius: 0.25rem;
 
-  font-family: "Jost", sans-serif;
+  font-family: var(--font-accent);
   font-size: 1rem;
 }
 

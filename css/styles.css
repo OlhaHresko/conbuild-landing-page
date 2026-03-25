@@ -25,6 +25,8 @@
   --radius-lg: 1.25rem;
   --radius-full: 50%;
   /* --- SHADOWS --- */
+  --shadow-none: 0 0 0 rgba(0, 0, 0, 0);
+  --shadow-sm: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.05);
   /* --- TRANSITIONS --- */
   --transition: 0.3s ease;
 }

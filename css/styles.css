@@ -2021,7 +2021,7 @@ iframe {
   text-align: left;
 
   cursor: pointer;
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: var(--shadow-none);
 
   transition:
     border-color var(--transition),
@@ -2031,7 +2031,7 @@ iframe {
 .blog-article:hover {
   border-color: transparent;
 
-  box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.05);
+  box-shadow: var(--shadow-sm);
 }
 
 .blog-article-pic {

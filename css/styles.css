@@ -18,6 +18,10 @@
   --font-accent: "Jost", sans-serif;
   --font-copyright: "DM Sans", sans-serif;
   /* --- SPACING --- */
+  --space-xxs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
   /* --- BORDER RADIUS */
   --radius-xs: 0.125rem;
   --radius-sm: 0.25rem;

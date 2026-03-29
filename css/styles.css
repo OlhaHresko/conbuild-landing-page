@@ -18,7 +18,8 @@
   --font-accent: "Jost", sans-serif;
   --font-copyright: "DM Sans", sans-serif;
   /* --- SPACING --- */
-  --space-xxs: 0.25rem;
+  --space-2xs: 0.125rem;
+  --space-2xs: 0.25rem;
   --space-xs: 0.5rem;
   --space-sm: 0.75rem;
   --space-md: 1rem;
@@ -524,7 +525,7 @@ video {
 }
 
 .hero-title {
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--space-xs);
 
   color: var(--bg-color);
   font-family: var(--font-accent);
@@ -1221,7 +1222,7 @@ video {
 
   width: fit-content;
   margin-bottom: 1rem;
-  padding: 0.3rem 1rem;
+  padding: var(--space-xxs) 1rem;
 
   color: var(--bg-color);
   font-family: var(--font-accent);
@@ -1275,7 +1276,7 @@ video {
   background-image: url(../assets/img/architecture.webp);
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: right 0 top 0.4rem;
+  background-position: right 0 top var(--space-xs);
 }
 
 .process-container {
@@ -1449,7 +1450,7 @@ iframe {
 }
 
 .section-title.testimonials-title {
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--space-xs);
 }
 
 .testimonials-main {
@@ -2086,7 +2087,7 @@ iframe {
 
   width: 4.6rem;
   height: 4.3rem;
-  padding: 0.5rem 0.8rem;
+  padding: var(--space-xs) 0.8rem;
 
   background-image: url(../assets/img/date.png);
   background-size: contain;
@@ -2428,8 +2429,8 @@ iframe {
   justify-content: start;
   align-items: center;
 
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: var(--space-xs);
+  margin-bottom: var(--space-xs);
 }
 
 .modal-subscribe-text {
@@ -2466,7 +2467,7 @@ iframe {
 
   width: 4.56rem;
   height: 4.25rem;
-  padding: 0.5rem 0.81rem 0.5rem 0.75rem;
+  padding: var(--space-xs) 0.81rem var(--space-xs) 0.75rem;
 
   background-image: url(../assets/img/date.png);
   background-size: contain;
@@ -3169,7 +3170,7 @@ input[type="checkbox"] {
   left: 0.316rem;
 
   width: var(--space-xxs);
-  height: 0.5rem;
+  height: var(--space-xs);
 
   border: solid #000;
   border-width: 0 2px 2px 0;
@@ -3313,7 +3314,7 @@ input[type="checkbox"] {
   }
 
   .projects-name {
-    padding: 0.5rem;
+    padding: var(--space-xs);
   }
 
   .swiper.swiper-3 {
@@ -3707,7 +3708,7 @@ input[type="checkbox"] {
   }
 
   .projects-name {
-    padding: var(--space-xxs) 0.4rem;
+    padding: var(--space-xxs) var(--space-xs);
   }
 
   .swiper.swiper-3 {
@@ -3799,7 +3800,7 @@ input[type="checkbox"] {
   }
 
   .price-line {
-    margin-bottom: 0.5rem;
+    margin-bottom: var(--space-xs);
   }
 
   .price-tariff {
@@ -3827,8 +3828,8 @@ input[type="checkbox"] {
   }
 
   .pricing-special {
-    top: 0.5rem;
-    right: 0.5rem;
+    top: var(--space-xs);
+    right: var(--space-xs);
 
     width: 5rem;
     height: 1.6rem;
@@ -3985,7 +3986,7 @@ input[type="checkbox"] {
   }
 
   .projects-type {
-    margin-bottom: 0.5rem;
+    margin-bottom: var(--space-xs);
   }
 
   .swiper.swiper-3 {
@@ -4463,7 +4464,7 @@ input[type="checkbox"] {
   }
 
   .testimonials-main-left {
-    padding-right: 0.5rem;
+    padding-right: var(--space-xs);
   }
 
   .testimonials-text {
@@ -4475,7 +4476,7 @@ input[type="checkbox"] {
   }
 
   .testimonials-persons-block {
-    gap: 0.5rem;
+    gap: var(--space-xs);
   }
 
   .testimonials-quote {
@@ -4485,7 +4486,7 @@ input[type="checkbox"] {
 
   .testimonials-photos {
     width: 3.75rem;
-    margin-left: 0.5rem;
+    margin-left: var(--space-xs);
   }
 
   .testimonials-photo {
@@ -4596,9 +4597,9 @@ input[type="checkbox"] {
   }
 
   .blog-article {
-    gap: 0.5rem;
+    gap: var(--space-xs);
 
-    padding: 0.5rem;
+    padding: var(--space-xs);
   }
 
   .blog-article .blog-author {

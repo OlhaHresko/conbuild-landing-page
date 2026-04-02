@@ -23,6 +23,7 @@
   --space-xs: 0.5rem;
   --space-sm: 0.75rem;
   --space-md: 1rem;
+  --space-xl: 1.25rem;
   /* --- BORDER RADIUS */
   --radius-xs: 0.125rem;
   --radius-sm: 0.25rem;
@@ -196,7 +197,7 @@ video {
 .logo-link {
   display: inline-flex;
   flex-direction: row;
-  gap: 0.19rem;
+  gap: var(--space-2xs);
   align-items: center;
 }
 

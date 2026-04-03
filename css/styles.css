@@ -260,7 +260,7 @@ video {
 .contacts-item {
   display: flex;
   flex-direction: row;
-  gap: 0.56rem;
+  gap: var(--space-xs);
   align-items: center;
 }
 
@@ -419,7 +419,7 @@ video {
 .phone-link {
   display: flex;
   flex-direction: row;
-  gap: 0.875rem;
+  gap: var(--space-md);
   align-items: center;
 }
 
@@ -547,7 +547,7 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.625rem;
+  gap: var(--space-xs);
 
   width: fit-content;
   padding: var(--space-md) 2.2rem;
@@ -674,7 +674,7 @@ video {
 }
 
 .section-title.services-section-title {
-  margin-bottom: 0.56rem;
+  margin-bottom: var(--space-sm);
 }
 
 .section-descr {
@@ -1043,7 +1043,7 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.625rem;
+  gap: var(--space-xs);
 
   width: calc((100% - 4.5rem) / 4);
   height: 13rem;

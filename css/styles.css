@@ -1286,7 +1286,7 @@ video {
 
 .section-title.process-title {
   width: fit-content;
-  padding-inline: 0.625rem;
+  padding-inline: var(--space-sm);
   margin: 0 auto 2.3rem;
 }
 
@@ -1545,7 +1545,7 @@ iframe {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  gap: 0.625rem;
+  gap: var(--space-sm);
 
   width: 6.9rem;
   margin-left: 4.3rem;
@@ -1613,7 +1613,7 @@ iframe {
 }
 
 .section-title.team-title {
-  margin-bottom: 0.56rem;
+  margin-bottom: var(--space-sm);
 }
 
 .team-descr {
@@ -1771,7 +1771,7 @@ iframe {
 .pricing-feature {
   position: relative;
 
-  padding-left: 0.875rem;
+  padding-left: var(--space-sm);
 
   color: var(--dark);
   font-family: var(--font-accent);

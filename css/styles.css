@@ -1819,8 +1819,8 @@ iframe {
 
 .pricing-special {
   position: absolute;
-  top: 0.625rem;
-  right: 0.625rem;
+  top: var(--space-sm);
+  right: var(--space-sm);
   display: block;
 
   width: 6.25rem;
@@ -1975,7 +1975,7 @@ iframe {
 .blog-button {
   display: flex;
   align-items: center;
-  gap: 0.625rem;
+  gap: var(--space-xs);
 
   width: fit-content;
   padding: 0.94rem 0.94rem 0.94rem 0;
@@ -2213,7 +2213,7 @@ iframe {
 
 .sign-up-label {
   position: absolute;
-  top: 0.875rem;
+  top: var(--space-sm);
   left: 0;
 
   color: rgba(255, 255, 255, 0.5);

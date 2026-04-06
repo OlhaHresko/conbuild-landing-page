@@ -2671,7 +2671,7 @@ iframe {
 }
 
 .full-service-img {
-  margin-top: 0.44rem;
+  margin-top: var(--space-xs);
 
   object-fit: contain;
 }
@@ -2679,7 +2679,7 @@ iframe {
 .full-service-text {
   display: flex;
   flex-direction: column;
-  gap: 0.625rem;
+  gap: var(--space-xs);
 }
 
 .full-service-button-wrapper {
@@ -2711,7 +2711,7 @@ iframe {
   display: inline-block;
 
   width: fit-content;
-  padding: 0.625rem 1.25rem;
+  padding: var(--space-xs) var(--space-xl);
 
   background-color: var(--accent);
 

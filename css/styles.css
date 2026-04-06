@@ -2414,7 +2414,7 @@ iframe {
 }
 
 .modal-subscribe-title {
-  margin-bottom: 0.875rem;
+  margin-bottom: var(--space-sm);
 
   color: var(--dark);
   font-family: var(--font-accent);
@@ -2492,7 +2492,7 @@ iframe {
 
 .blog-article-content-text {
   max-height: 56vh;
-  padding-right: 0.625rem;
+  padding-right: var(--space-sm);
 
   overflow-y: auto;
 }
@@ -2503,7 +2503,7 @@ iframe {
   width: auto;
   max-width: 50%;
   height: auto;
-  margin-top: 0.44rem;
+  margin-top: var(--space-xs);
 
   object-fit: contain;
 }
@@ -2519,7 +2519,7 @@ iframe {
 .blog-article-text {
   display: flex;
   flex-direction: column;
-  gap: 0.625rem;
+  gap: var(--space-xs);
 }
 
 .blog-article-text > p {

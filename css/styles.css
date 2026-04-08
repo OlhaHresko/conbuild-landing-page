@@ -3079,7 +3079,7 @@ input:-webkit-autofill:active {
 .modal-form-label-input-2.card-number {
   flex-grow: 1;
 
-  padding-left: 0.94rem;
+  padding-left: var(--space-md);
 
   letter-spacing: 0.125rem;
 }
@@ -3127,7 +3127,7 @@ input:-webkit-autofill:active {
 .modal-form-checkbox-group {
   display: flex;
   flex-direction: column;
-  gap: 0.625rem;
+  gap: var(--space-xs);
 
   margin-top: 1.25rem;
 }
@@ -3158,7 +3158,7 @@ input[type="checkbox"] {
 
   width: var(--space-md);
   height: var(--space-md);
-  margin-right: 0.625rem;
+  margin-right: var(--space-sm);
 
   border: 1px solid #ccc;
   border-radius: var(--radius-sm);
@@ -3311,7 +3311,7 @@ input[type="checkbox"] {
   }
 
   .projects-type {
-    margin-bottom: 0.625rem;
+    margin-bottom: var(--space-xs);
   }
 
   .projects-name {
@@ -3404,7 +3404,7 @@ input[type="checkbox"] {
   }
 
   .hero {
-    margin-bottom: 0.625rem;
+    margin-bottom: var(--space-sm);
   }
 
   .hero-container {
@@ -3441,7 +3441,7 @@ input[type="checkbox"] {
 
   .projects-type {
     margin-bottom: var(--space-xs);
-    padding: var(--space-3xs) 0.625rem;
+    padding: var(--space-3xs) var(--space-xs);
 
     font-size: 0.875rem;
   }
@@ -3525,7 +3525,7 @@ input[type="checkbox"] {
   .blog-main-article-date {
     width: 6.25rem;
     height: 6rem;
-    padding: var(--space-sm) 0.94rem var(--space-md);
+    padding: var(--space-sm) var(--space-md) var(--space-md);
 
     text-align: center;
   }

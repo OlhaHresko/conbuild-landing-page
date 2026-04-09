@@ -3636,7 +3636,7 @@ input[type="checkbox"] {
   }
 
   .button {
-    padding: 0.875rem 1.5rem;
+    padding: var(--space-md) 1.5rem;
   }
 
   .front-loader {
@@ -3692,11 +3692,11 @@ input[type="checkbox"] {
   }
 
   .status-list {
-    gap: 0.875rem;
+    gap: var(--space-sm);
   }
 
   .status-item {
-    width: calc((100% - 2.625rem) / 4);
+    width: calc((100% - (var(--space-sm) * 3)) / 4);
     height: 10rem;
   }
 
@@ -3805,7 +3805,7 @@ input[type="checkbox"] {
   }
 
   .price-tariff {
-    gap: 0.625rem;
+    gap: var(--space-xs);
 
     margin-bottom: 1.25rem;
   }
@@ -3843,14 +3843,14 @@ input[type="checkbox"] {
   }
 
   .blog-list {
-    gap: 0.625rem;
+    gap: var(--space-xs);
 
     margin-bottom: 2.25rem;
   }
 
   .blog-article {
-    width: calc((100% - 1.25rem) / 3);
-    padding: 0.875rem 0.875rem 0.875rem;
+    width: calc((100% - (var(--space-xs) * 2)) / 3);
+    padding: var(--space-sm);
   }
 
   .sign-up-wrapper {

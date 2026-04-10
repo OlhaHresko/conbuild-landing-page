@@ -4126,7 +4126,7 @@ input[type="checkbox"] {
 
   .blog-main-article {
     flex-direction: column;
-    gap: 0.625rem;
+    gap: var(--space-xs);
   }
 
   .blog-main-article-pic-wrapper {
@@ -4193,7 +4193,7 @@ input[type="checkbox"] {
 @media (width <= 36rem) {
   .container {
     margin-bottom: 3rem;
-    padding-inline: 0.94rem;
+    padding-inline: var(--space-md);
   }
 
   .header {

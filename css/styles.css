@@ -3603,6 +3603,10 @@ input[type="checkbox"] {
     width: fit-content;
   }
 
+  .socials-list {
+    border: none;
+  }
+
   .phone {
     display: none;
   }
@@ -4225,7 +4229,7 @@ input[type="checkbox"] {
   }
 
   .logo-link {
-    gap: 0.625rem;
+    gap: var(--space-xs);
   }
 
   .logo-descr {
@@ -4253,7 +4257,7 @@ input[type="checkbox"] {
     gap: 1.25rem;
 
     height: 3.56rem;
-    padding-right: 0.94rem;
+    padding-right: var(--space-md);
 
     border-bottom: none;
   }

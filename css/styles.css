@@ -3968,7 +3968,7 @@ input[type="checkbox"] {
   }
 
   .swiper-slide.swiper-second {
-    padding: 1.3rem 0.625rem;
+    padding: 1.3rem var(--space-sm);
   }
 
   .status-title {
@@ -4107,7 +4107,7 @@ input[type="checkbox"] {
   }
 
   .pricing-item {
-    padding: 2.5rem 0.625rem 2.2rem;
+    padding: 2.5rem var(--space-sm) 2.2rem;
   }
 
   .pricing-features {
@@ -4115,7 +4115,7 @@ input[type="checkbox"] {
   }
 
   .pricing-button {
-    padding: 0.625rem;
+    padding: var(--space-xs);
   }
 
   .blog::before {

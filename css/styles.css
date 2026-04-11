@@ -4299,7 +4299,7 @@ input[type="checkbox"] {
     flex-direction: column;
     align-items: end;
 
-    padding: 0.625rem 1.875rem 1.875rem;
+    padding: var(--space-xs) 1.875rem 1.875rem;
 
     background-color: var(--dark);
   }
@@ -4325,7 +4325,7 @@ input[type="checkbox"] {
     gap: 1.25rem;
 
     width: 100%;
-    padding: 0 0.94rem 3.125rem 0.94rem;
+    padding: 0 var(--space-md) 3.125rem;
   }
 
   .hero-text {
@@ -4420,11 +4420,11 @@ input[type="checkbox"] {
   }
 
   .status-list {
-    gap: 0.625rem;
+    gap: var(--space-xs);
   }
 
   .status-item {
-    width: calc((100% - 0.625rem) / 2);
+    width: calc((100% - var(--space-xs)) / 2);
     height: 9.375rem;
   }
 

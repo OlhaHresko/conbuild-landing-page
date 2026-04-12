@@ -4623,7 +4623,7 @@ input[type="checkbox"] {
   }
 
   .blog-article .blog-descr {
-    padding-left: 0.875rem;
+    padding-left: var(--space-md);
   }
 
   .blog-article-pic {

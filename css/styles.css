@@ -23,7 +23,7 @@
   --space-xs: 0.5rem;
   --space-sm: 0.75rem;
   --space-md: 1rem;
-  --space-xl: 1.25rem;
+  --space-lg: 1.25rem;
   /* --- BORDER RADIUS */
   --radius-xs: 0.125rem;
   --radius-sm: 0.25rem;
@@ -312,7 +312,7 @@ video {
 .socials-list {
   display: flex;
   flex-direction: row;
-  gap: 1.25rem;
+  gap: var(--space-lg);
   align-items: center;
 }
 
@@ -321,8 +321,8 @@ video {
   justify-content: center;
   align-items: center;
 
-  width: 1.25rem;
-  height: 1.25rem;
+  width: var(--space-lg);
+  height: var(--space-lg);
 }
 
 .socials-link {
@@ -953,8 +953,8 @@ video {
   justify-content: center;
 
   width: 10.5rem;
-  height: 1.25rem;
-  padding-inline: 1.25rem;
+  height: var(--space-lg);
+  padding-inline: var(--space-lg);
 }
 
 .swiper-second.swiper-button-prev,
@@ -1607,7 +1607,7 @@ iframe {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 1.25rem;
+  gap: var(--space-lg);
 
   margin-bottom: 4.5rem;
 }
@@ -1911,7 +1911,7 @@ iframe {
 .blog-main-article-text {
   max-width: 28.7rem;
   min-width: 0;
-  padding-top: 1.25rem;
+  padding-top: var(--space-lg);
 }
 
 .blog-descr {
@@ -2167,7 +2167,7 @@ iframe {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 1.25rem;
+  gap: var(--space-lg);
 
   width: calc(100% - 1.5rem);
   height: 11.5rem;
@@ -2273,12 +2273,12 @@ iframe {
 
 .footer-lower > div:nth-child(2) {
   width: 12.5rem;
-  margin-right: 1.25rem;
+  margin-right: var(--space-lg);
 }
 
 .footer-lower > div:nth-child(3) {
   width: 19.38rem;
-  margin-right: 1.25rem;
+  margin-right: var(--space-lg);
 }
 
 .footer-lower > div:nth-child(4) {
@@ -2394,8 +2394,8 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 1.25rem;
-  right: 1.25rem;
+  top: var(--space-lg);
+  right: var(--space-lg);
 
   border: none;
 
@@ -2711,7 +2711,7 @@ iframe {
   display: inline-block;
 
   width: fit-content;
-  padding: var(--space-xs) var(--space-xl);
+  padding: var(--space-xs) var(--space-lg);
 
   background-color: var(--accent);
 

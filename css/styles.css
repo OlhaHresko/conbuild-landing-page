@@ -3129,7 +3129,7 @@ input:-webkit-autofill:active {
   flex-direction: column;
   gap: var(--space-xs);
 
-  margin-top: 1.25rem;
+  margin-top: var(--space-lg);
 }
 
 .modal-form-checkbox {
@@ -3225,7 +3225,7 @@ input[type="checkbox"] {
   }
 
   .contacts-list {
-    gap: 1.25rem;
+    gap: var(--space-lg);
 
     padding-left: 0;
   }
@@ -3251,7 +3251,7 @@ input[type="checkbox"] {
     top: 3.5rem;
     right: -0.0625rem;
     flex-direction: column;
-    gap: 1.25rem;
+    gap: var(--space-lg);
     align-items: center;
     z-index: 10;
 
@@ -3307,7 +3307,7 @@ input[type="checkbox"] {
 
   .projects-item-content {
     height: 22.5rem;
-    padding: 1.25rem;
+    padding: var(--space-lg);
   }
 
   .projects-type {
@@ -3385,14 +3385,14 @@ input[type="checkbox"] {
   .upper-header {
     flex: 1;
 
-    padding-right: 1.25rem;
+    padding-right: var(--space-lg);
   }
 
   .contacts-list {
-    gap: 1.25rem;
+    gap: var(--space-lg);
 
     padding-left: 0;
-    padding-right: 1.25rem;
+    padding-right: var(--space-lg);
   }
 
   .contacts-item:nth-child(3) {
@@ -3400,7 +3400,7 @@ input[type="checkbox"] {
   }
 
   .nav-list {
-    padding-right: 1.25rem;
+    padding-right: var(--space-lg);
   }
 
   .hero {
@@ -3564,7 +3564,7 @@ input[type="checkbox"] {
   }
 
   .contacts-list {
-    padding: var(--space-sm) 1.25rem var(--space-sm);
+    padding: var(--space-sm) var(--space-lg) var(--space-sm);
   }
 
   .phone-icon-frame {

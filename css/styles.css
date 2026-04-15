@@ -3801,7 +3801,7 @@ input[type="checkbox"] {
 
   .pricing-item {
     width: calc((100% - 1.5rem) / 3);
-    padding: 2.75rem 1.25rem 2.75rem;
+    padding: 2.75rem var(--space-lg) 2.75rem;
   }
 
   .price-line {
@@ -3811,7 +3811,7 @@ input[type="checkbox"] {
   .price-tariff {
     gap: var(--space-xs);
 
-    margin-bottom: 1.25rem;
+    margin-bottom: var(--space-lg);
   }
 
   .pricing-features {
@@ -3875,7 +3875,7 @@ input[type="checkbox"] {
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 4.375rem;
-    column-gap: 1.25rem;
+    column-gap: var(--space-lg);
 
     padding-top: 9.375rem;
   }
@@ -3937,7 +3937,7 @@ input[type="checkbox"] {
   }
 
   .hero-text {
-    padding-top: 1.25rem;
+    padding-top: var(--space-lg);
     padding-bottom: 0;
   }
 
@@ -3946,7 +3946,7 @@ input[type="checkbox"] {
   }
 
   .button {
-    padding: var(--space-sm) 1.25rem;
+    padding: var(--space-sm) var(--space-lg);
   }
 
   .front-loader {
@@ -4115,7 +4115,7 @@ input[type="checkbox"] {
   }
 
   .pricing-features {
-    margin-bottom: 1.25rem;
+    margin-bottom: var(--space-lg);
   }
 
   .pricing-button {
@@ -4153,12 +4153,12 @@ input[type="checkbox"] {
 
   .blog-list {
     flex-direction: column;
-    gap: 1.25rem;
+    gap: var(--space-lg);
   }
 
   .blog-article {
     display: flex;
-    gap: 1.25rem;
+    gap: var(--space-lg);
 
     width: 100%;
     min-height: 0;
@@ -4188,7 +4188,7 @@ input[type="checkbox"] {
   }
 
   .footer-lower > div:nth-child(1) {
-    gap: 1.25rem;
+    gap: var(--space-lg);
   }
 }
 
@@ -4254,7 +4254,7 @@ input[type="checkbox"] {
   }
 
   .upper-header {
-    gap: 1.25rem;
+    gap: var(--space-lg);
 
     height: 3.56rem;
     padding-right: var(--space-md);
@@ -4322,7 +4322,7 @@ input[type="checkbox"] {
 
   .hero-container {
     flex-direction: column;
-    gap: 1.25rem;
+    gap: var(--space-lg);
 
     width: 100%;
     padding: 0 var(--space-md) 3.125rem;
@@ -4355,7 +4355,7 @@ input[type="checkbox"] {
   }
 
   .button {
-    padding: var(--space-sm) 1.25rem;
+    padding: var(--space-sm) var(--space-lg);
   }
 
   .container-services {
@@ -4377,7 +4377,7 @@ input[type="checkbox"] {
   }
 
   .section-descr {
-    margin-bottom: 1.25rem;
+    margin-bottom: var(--space-lg);
   }
 
   .swiper.swiper-1 {
@@ -4528,7 +4528,7 @@ input[type="checkbox"] {
 
   .team-image {
     max-width: 100%;
-    margin-top: 1.25rem;
+    margin-top: var(--space-lg);
   }
 
   .team-members {
@@ -4536,13 +4536,13 @@ input[type="checkbox"] {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1.25rem;
+    gap: var(--space-lg);
 
     max-width: 100%;
   }
 
   .team-members > li {
-    width: calc((100% - 1.25rem) / 2);
+    width: calc((100% - var(--space-lg)) / 2);
   }
 
   .team-member-name {

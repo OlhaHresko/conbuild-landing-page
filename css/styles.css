@@ -25,6 +25,7 @@
   --space-md: 1rem;
   --space-lg: 1.25rem;
   --space-xl: 1.5rem;
+  --space-2xl: 2rem;
   /* --- BORDER RADIUS */
   --radius-xs: 0.125rem;
   --radius-sm: 0.25rem;
@@ -244,7 +245,7 @@ video {
   align-items: center;
 
   flex-basis: 43%;
-  padding-right: 1.81rem;
+  padding-right: var(--space-2xl);
 
   border-bottom: 1px solid var(--dark-text);
 }
@@ -255,7 +256,7 @@ video {
   justify-content: space-between;
   gap: 2.625rem;
 
-  padding: 0 1.81rem 0 0;
+  padding-right: var(--space-2xl);
 }
 
 .contacts-item {
@@ -294,8 +295,8 @@ video {
 .socials-share {
   display: none;
 
-  width: 1.875rem;
-  height: 1.875rem;
+  width: var(--space-2xl);
+  height: var(--space-2xl);
 
   border: none;
 
@@ -367,7 +368,7 @@ video {
   display: flex;
   flex-direction: row;
   justify-content: start;
-  gap: 2rem;
+  gap: var(--space-2xl);
 
   flex-basis: 57%;
 }
@@ -513,7 +514,7 @@ video {
 
 @container header (max-width: 119rem) {
   .hero-container {
-    padding: 3rem 2rem 4.5rem 2rem;
+    padding: 3rem var(--space-2xl) 4.5rem;
   }
 }
 
@@ -551,7 +552,7 @@ video {
   gap: var(--space-xs);
 
   width: fit-content;
-  padding: var(--space-md) 2.2rem;
+  padding: var(--space-md) var(--space-2xl);
 
   font-family: var(--font-accent);
   font-size: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
@@ -897,7 +898,7 @@ video {
   justify-content: flex-end;
 
   width: 26rem;
-  padding: var(--space-lg) 1.8rem;
+  padding: var(--space-lg) var(--space-xl);
 
   background-size: cover;
   background-position: center;
@@ -1255,7 +1256,7 @@ video {
 
   width: 100%;
   height: 27.69rem;
-  padding: 2rem;
+  padding: var(--space-2xl);
 
   opacity: 1;
   user-select: none;
@@ -1471,7 +1472,7 @@ iframe {
   justify-content: center;
 
   min-width: 0;
-  padding-right: 2rem;
+  padding-right: var(--space-2xl);
 }
 
 .testimonials-reviews {
@@ -1483,7 +1484,7 @@ iframe {
   display: none;
 
   width: 100%;
-  padding: 3.3rem 0 2rem;
+  padding: 3.3rem 0 var(--space-2xl);
 
   color: var(--dark-text);
   font-family: var(--font-accent);
@@ -1644,7 +1645,7 @@ iframe {
 .team-members {
   display: flex;
   flex-direction: column;
-  gap: 2.2rem;
+  gap: var(--space-2xl);
 
   max-width: 16.81rem;
 }
@@ -1802,7 +1803,7 @@ iframe {
 }
 
 .pricing-button {
-  padding: var(--space-sm) 2.2rem;
+  padding: var(--space-sm) var(--space-2xl);
 }
 
 .pricing-rectangle {
@@ -1869,7 +1870,7 @@ iframe {
 
   text-align: start;
 
-  margin-bottom: 2rem;
+  margin-bottom: var(--space-2xl);
 }
 
 .blog-main-article-pic-wrapper {
@@ -1885,7 +1886,7 @@ iframe {
 
   width: 8rem;
   height: 7.7rem;
-  padding: var(--space-xl) 1.8rem 2rem;
+  padding: var(--space-xl);
 
   background-image: url(../assets/img/date.png);
   background-size: contain;
@@ -1895,6 +1896,7 @@ iframe {
   color: var(--bg-color);
   font-size: clamp(0.9375rem, 0.7768rem + 0.8036vw, 1.5rem);
   line-height: 1.417;
+  text-align: center;
 
   transform: translateX(-55%);
 }
@@ -1923,7 +1925,7 @@ iframe {
 .blog-author {
   position: relative;
 
-  margin-right: 1.875rem;
+  margin-right: var(--space-2xl);
 }
 
 .blog-author::before {
@@ -1933,7 +1935,7 @@ iframe {
   top: 50%;
   left: -2.56rem;
 
-  width: 1.94rem;
+  width: var(--space-2xl);
   height: 1px;
 
   background-color: var(--dark-text);
@@ -2019,7 +2021,7 @@ iframe {
 
   width: calc((100% - 3rem) / 3);
   min-height: 33rem;
-  padding: 1.875rem 1.875rem var(--space-xl);
+  padding: var(--space-xl);
 
   border: 1px solid var(--light-text);
 
@@ -2241,7 +2243,7 @@ iframe {
   right: 0;
 
   width: 2.4rem;
-  height: 2rem;
+  height: var(--space-2xl);
 
   border: none;
 
@@ -2440,7 +2442,7 @@ iframe {
 }
 
 .modal-subscribe-span {
-  margin-bottom: 1.875rem;
+  margin-bottom: var(--space-2xl);
 
   color: var(--accent);
   font-size: 1.125rem;
@@ -2487,7 +2489,7 @@ iframe {
   justify-content: space-between;
   align-items: start;
 
-  margin-top: 1.875rem;
+  margin-top: var(--space-xl);
   margin-bottom: 3.125rem;
 }
 
@@ -2727,7 +2729,7 @@ iframe {
   flex-direction: row;
   gap: 3.75rem;
 
-  margin-bottom: 1.875rem;
+  margin-bottom: var(--space-xl);
 }
 
 .modal-project-img {
@@ -2749,7 +2751,7 @@ iframe {
 }
 
 .modal-project-text {
-  margin-bottom: 1.875rem;
+  margin-bottom: var(--space-xl);
 }
 
 .modal-project-text > p {
@@ -2768,7 +2770,7 @@ iframe {
 
   width: 100rem;
   max-height: 95vh;
-  padding: 2rem 5rem;
+  padding: var(--space-2xl) 5rem;
 }
 
 .modal-team-title {
@@ -2958,7 +2960,7 @@ iframe {
 .modal-pricing-congratulations {
   align-self: center;
 
-  margin-bottom: 1.875rem;
+  margin-bottom: var(--space-xl);
 
   color: var(--dark);
   font-size: 1.125rem;
@@ -2972,7 +2974,7 @@ iframe {
 .modal-form-person {
   display: flex;
   flex-direction: column;
-  gap: 1.875rem;
+  gap: var(--space-xl);
 
   width: 100%;
 }
@@ -3070,7 +3072,7 @@ input:-webkit-autofill:active {
 }
 
 .modal-pricing-logo {
-  height: 1.875rem;
+  height: var(--space-2xl);
 }
 
 .modal-form-label-span.card-number {
@@ -3269,7 +3271,7 @@ input[type="checkbox"] {
     gap: var(--space-md);
 
     padding-left: 0;
-    padding-right: 1.9rem;
+    padding-right: var(--space-2xl);
   }
 
   .nav-link:nth-child(4) {
@@ -3294,7 +3296,7 @@ input[type="checkbox"] {
   }
 
   .hero {
-    margin-bottom: 2rem;
+    margin-bottom: var(--space-2xl);
   }
 
   .container-services {
@@ -3303,7 +3305,7 @@ input[type="checkbox"] {
 
   .about-upper-block {
     grid-template-columns: 50% 46%;
-    gap: 2rem;
+    gap: var(--space-2xl);
   }
 
   .projects-item-content {
@@ -3414,7 +3416,7 @@ input[type="checkbox"] {
 
   .hero-text {
     padding-top: 6.25rem;
-    padding-bottom: 2rem;
+    padding-bottom: var(--space-2xl);
   }
 
   .hero-descr {
@@ -3581,8 +3583,8 @@ input[type="checkbox"] {
     justify-content: center;
     align-items: center;
 
-    width: 1.875rem;
-    height: 1.875rem;
+    width: var(--space-2xl);
+    height: var(--space-2xl);
 
     cursor: pointer;
   }
@@ -3687,7 +3689,7 @@ input[type="checkbox"] {
   }
 
   .about-upper-block {
-    gap: 2rem;
+    gap: var(--space-2xl);
 
     margin-bottom: 3rem;
   }
@@ -3795,7 +3797,7 @@ input[type="checkbox"] {
   }
 
   .pricing-item {
-    width: calc((100% - (var(--space-sm * 2))) / 3);
+    width: calc((100% - (var(--space-sm) * 2)) / 3);
     padding: 2.75rem var(--space-lg) 2.75rem;
   }
 
@@ -3906,7 +3908,7 @@ input[type="checkbox"] {
   }
 
   .logo {
-    margin-right: 2rem;
+    margin-right: var(--space-2xl);
   }
 
   .logo-descr-header {
@@ -3937,7 +3939,7 @@ input[type="checkbox"] {
   }
 
   .hero-descr {
-    margin-bottom: 1.875rem;
+    margin-bottom: var(--space-2xl);
   }
 
   .button {
@@ -4082,7 +4084,7 @@ input[type="checkbox"] {
 
   .team-descr {
     max-width: 100%;
-    margin-bottom: 1.875rem;
+    margin-bottom: var(--space-xl);
 
     background-color: var(--bg-color);
   }
@@ -4102,11 +4104,11 @@ input[type="checkbox"] {
   }
 
   .section-title.pricing-title {
-    margin-bottom: 2.2rem;
+    margin-bottom: var(--space-2xl);
   }
 
   .pricing-item {
-    padding: 2.5rem var(--space-sm) 2.2rem;
+    padding: 2.5rem var(--space-sm) var(--space-2xl);
   }
 
   .pricing-features {
@@ -4167,7 +4169,7 @@ input[type="checkbox"] {
   }
 
   .sign-up-wrapper {
-    padding: 2.5rem 1.875rem;
+    padding: 2.5rem var(--space-2xl);
   }
 
   .sign-up-form {
@@ -4274,8 +4276,8 @@ input[type="checkbox"] {
     justify-content: center;
     align-items: center;
 
-    width: 1.875rem;
-    height: 1.875rem;
+    width: var(--space-2xl);
+    height: var(--space-2xl);
 
     border: none;
 
@@ -4294,7 +4296,7 @@ input[type="checkbox"] {
     flex-direction: column;
     align-items: end;
 
-    padding: var(--space-xs) 1.875rem 1.875rem;
+    padding: var(--space-xs) var(--space-2xl) var(--space-2xl);;
 
     background-color: var(--dark);
   }
@@ -4326,7 +4328,7 @@ input[type="checkbox"] {
   .hero-text {
     width: 100%;
     padding-top: 3.125rem;
-    padding-bottom: 1.875rem;
+    padding-bottom: var(--space-2xl);
 
     text-align: center;
   }
@@ -4356,7 +4358,7 @@ input[type="checkbox"] {
   .container-services {
     display: flex;
     flex-direction: column;
-    gap: 1.875rem;
+    gap: var(--space-2xl);
   }
 
   .services-text {
@@ -4411,7 +4413,7 @@ input[type="checkbox"] {
   }
 
   .status-title {
-    margin-bottom: 1.875rem;
+    margin-bottom: var(--space-2xl);
   }
 
   .status-list {
@@ -4472,7 +4474,7 @@ input[type="checkbox"] {
   }
 
   .testimonials-review {
-    padding-top: 2rem;
+    padding-top: var(--space-2xl);
   }
 
   .testimonials-persons-block {
@@ -4593,7 +4595,7 @@ input[type="checkbox"] {
   }
 
   .blog-list {
-    margin-bottom: 1.875rem;
+    margin-bottom: var(--space-2xl);
   }
 
   .blog-article {

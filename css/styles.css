@@ -26,6 +26,7 @@
   --space-lg: 1.25rem;
   --space-xl: 1.5rem;
   --space-2xl: 2rem;
+  --space-3xl: 2.5rem;
   /* --- BORDER RADIUS */
   --radius-xs: 0.125rem;
   --radius-sm: 0.25rem;
@@ -254,7 +255,7 @@ video {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 2.625rem;
+  gap: var(--space-3xl);
 
   padding-right: var(--space-2xl);
 }
@@ -1102,7 +1103,7 @@ video {
   right: 0;
 
   width: 10.5rem;
-  height: 2.5rem;
+  height: var(--space-3xl);
 }
 
 .projects-button.swiper-button-prev:after,
@@ -1499,7 +1500,7 @@ iframe {
 .testimonials-persons-block {
   display: flex;
   flex-direction: row;
-  gap: 2.3rem;
+  gap: var(--space-3xl);
 }
 
 .testimonials-quote {
@@ -1511,7 +1512,7 @@ iframe {
 }
 
 .testimonials-quote-line {
-  width: 2.5rem;
+  width: var(--space-3xl);
   height: 17.5rem;
 }
 
@@ -1620,7 +1621,7 @@ iframe {
 
 .team-descr {
   max-width: 27.5rem;
-  margin-bottom: 2.7rem;
+  margin-bottom: var(--space-3xl);
 }
 
 .team-text {
@@ -1765,7 +1766,7 @@ iframe {
   gap: var(--space-3xs);
 
   padding-top: var(--space-lg);
-  margin-bottom: 2.4rem;
+  margin-bottom: var(--space-3xl);
 
   border-top: 1px solid var(--contacts-color);
 }
@@ -1918,7 +1919,7 @@ iframe {
 }
 
 .blog-descr {
-  padding-left: 2.6rem;
+  padding-left: var(--space-3xl);
   margin-bottom: var(--space-sm);
 }
 
@@ -2012,7 +2013,7 @@ iframe {
   flex-wrap: wrap;
   gap: var(--space-xl);
 
-  margin-bottom: 2.6rem;
+  margin-bottom: var(--space-3xl);
 }
 
 .blog-article {
@@ -2087,7 +2088,7 @@ iframe {
 .blog-article-date {
   position: absolute;
   top: 15rem;
-  right: 2.5rem;
+  right: var(--space-3xl);
 
   width: 4.6rem;
   height: 4.3rem;
@@ -2180,7 +2181,7 @@ iframe {
   background-image: url(../assets/img/newsletter.webp);
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: top 2.5rem left 16.88rem;
+  background-position: top var(--space-3xl) left 16.88rem;
 }
 
 .sign-up-cta {
@@ -2242,7 +2243,7 @@ iframe {
   top: 0;
   right: 0;
 
-  width: 2.4rem;
+  width: var(--space-3xl);
   height: var(--space-2xl);
 
   border: none;
@@ -2304,7 +2305,7 @@ iframe {
 }
 
 .footer-available {
-  margin-top: 2.25rem;
+  margin-top: var(--space-3xl);
 
   color: var(--bg-color);
   font-family: var(--font-accent);
@@ -2548,11 +2549,11 @@ iframe {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 2.5rem;
+  gap: var(--space-3xl);
   justify-content: center;
   align-items: center;
 
-  margin-bottom: 2.5rem;
+  margin-bottom: var(--space-3xl);
   max-height: 76vh;
 
   overflow-y: auto;
@@ -2640,7 +2641,7 @@ iframe {
   gap: 4.375rem;
   align-items: start;
 
-  margin-bottom: 2.5rem;
+  margin-bottom: var(--space-3xl);
 }
 
 .full-service-content-container {
@@ -2774,7 +2775,7 @@ iframe {
 }
 
 .modal-team-title {
-  margin-bottom: 2.5rem;
+  margin-bottom: var(--space-3xl);
 
   color: var(--dark);
   font-family: var(--font-accent);
@@ -2792,7 +2793,7 @@ iframe {
   column-gap: 3.75rem;
   row-gap: 2.19rem;
 
-  margin-bottom: 2.5rem;
+  margin-bottom: var(--space-3xl);
   padding-right: var(--space-lg);
 
   overflow-y: auto;
@@ -2874,7 +2875,7 @@ iframe {
   gap: 3.125rem;
 
   width: 100%;
-  margin-bottom: 2.5rem;
+  margin-bottom: var(--space-3xl);
 }
 
 .modal-progress-bar-first,
@@ -3062,7 +3063,7 @@ input:-webkit-autofill:active {
 
 .modal-form-label-input-2 {
   width: 100%;
-  height: 2.5rem;
+  height: var(--space-3xl);
 
   border: 1px solid var(--accent);
   border-radius: var(--radius-sm);
@@ -3411,7 +3412,7 @@ input[type="checkbox"] {
   }
 
   .hero-container {
-    padding: 2.5rem 3rem 4.5rem 3rem;
+    padding: var(--space-3xl) 3rem 4.5rem 3rem;
   }
 
   .hero-text {
@@ -3431,7 +3432,7 @@ input[type="checkbox"] {
   }
 
   .container-services {
-    gap: 2.5rem;
+    gap: var(--space-3xl);
   }
 
   .status-title {
@@ -3518,7 +3519,7 @@ input[type="checkbox"] {
   }
 
   .status-title {
-    margin-bottom: 2.5rem;
+    margin-bottom: var(--space-3xl);
   }
 
   .blog-main-article {
@@ -3639,7 +3640,7 @@ input[type="checkbox"] {
   }
 
   .hero-descr {
-    margin-bottom: 2.5rem;
+    margin-bottom: var(--space-3xl);
   }
 
   .button {
@@ -3658,7 +3659,7 @@ input[type="checkbox"] {
   }
 
   .container-services {
-    gap: 2.5rem;
+    gap: var(--space-3xl);
   }
 
   .section-descr {
@@ -3765,7 +3766,7 @@ input[type="checkbox"] {
     align-items: end;
     gap: var(--space-md);
 
-    margin-bottom: 2.5rem;
+    margin-bottom: var(--space-3xl);
   }
 
   .team-image {
@@ -3779,9 +3780,9 @@ input[type="checkbox"] {
   }
 
   .pricing {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    margin-bottom: 2.5rem;
+    padding-top: var(--space-3xl);
+    padding-bottom: var(--space-3xl);
+    margin-bottom: var(--space-3xl);
   }
 
   .pricing-container {
@@ -3789,7 +3790,7 @@ input[type="checkbox"] {
   }
 
   .section-title.pricing-title {
-    margin-bottom: 2.5rem;
+    margin-bottom: var(--space-3xl);
   }
 
   .pricing-list {
@@ -3825,8 +3826,8 @@ input[type="checkbox"] {
   }
 
   .pricing-rectangle {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: var(--space-3xl);
+    height: var(--space-3xl);
   }
 
   .pricing-special {
@@ -3965,7 +3966,7 @@ input[type="checkbox"] {
   .about-upper-block {
     gap: var(--space-md);
 
-    margin-bottom: 2.5rem;
+    margin-bottom: var(--space-3xl);
   }
 
   .swiper-slide.swiper-second {
@@ -3973,7 +3974,7 @@ input[type="checkbox"] {
   }
 
   .status-title {
-    margin-bottom: 2.4rem;
+    margin-bottom: var(--space-3xl);
   }
 
   .status-list {
@@ -4026,7 +4027,7 @@ input[type="checkbox"] {
   }
 
   .testimonials-review {
-    padding-top: 2.5rem;
+    padding-top: var(--space-3xl);
   }
 
   .testimonials-persons-block {
@@ -4039,7 +4040,7 @@ input[type="checkbox"] {
 
   .testimonials-quote {
     width: 3.4rem;
-    height: 2.5rem;
+    height: var(--space-3xl);
   }
 
   .testimonials-photos {
@@ -4108,7 +4109,7 @@ input[type="checkbox"] {
   }
 
   .pricing-item {
-    padding: 2.5rem var(--space-sm) var(--space-2xl);
+    padding: var(--space-3xl) var(--space-sm) var(--space-2xl);
   }
 
   .pricing-features {
@@ -4169,7 +4170,7 @@ input[type="checkbox"] {
   }
 
   .sign-up-wrapper {
-    padding: 2.5rem var(--space-2xl);
+    padding: var(--space-3xl) var(--space-2xl);
   }
 
   .sign-up-form {
@@ -4217,7 +4218,7 @@ input[type="checkbox"] {
   }
 
   .logo-pic {
-    width: 2.5rem;
+    width: var(--space-3xl);
     height: auto;
     padding: 0.19rem;
 
@@ -4441,17 +4442,17 @@ input[type="checkbox"] {
     flex-direction: column;
     gap: var(--space-md);
 
-    margin-bottom: 2.5rem;
+    margin-bottom: var(--space-3xl);
   }
 
   .process-button {
     width: 100%;
-    height: 2.5rem;
+    height: var(--space-3xl);
   }
 
   .custom-play-button {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: var(--space-3xl);
+    height: var(--space-3xl);
   }
 
   .custom-play-icon {
@@ -4573,7 +4574,7 @@ input[type="checkbox"] {
 
   .pricing-item {
     width: 100%;
-    padding: 2.5rem var(--space-lg) 2.5rem;
+    padding: var(--space-3xl) var(--space-lg);
   }
 
   @container (min-width: 26.75rem) and (max-width: 34.125rem) {
@@ -4651,7 +4652,7 @@ input[type="checkbox"] {
   }
 
   .footer-lower {
-    row-gap: 2.5rem;
+    row-gap: var(--space-3xl);
   }
 
   .footer-lower > div:nth-child(1) {
@@ -4669,6 +4670,6 @@ input[type="checkbox"] {
   }
 
   .footer-rights {
-    height: 2.5rem;
+    height: var(--space-3xl);
   }
 }

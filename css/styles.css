@@ -1486,7 +1486,7 @@ iframe {
   display: none;
 
   width: 100%;
-  padding: 3.3rem 0 var(--space-2xl);
+  padding: var(--space-4xl) 0 var(--space-2xl);
 
   color: var(--dark-text);
   font-family: var(--font-accent);
@@ -1721,7 +1721,7 @@ iframe {
   position: relative;
 
   width: calc((100% - (var(--space-xl) * 2)) / 3);
-  padding: 2.75rem 3.125rem 3.125rem;
+  padding: var(--space-4xl) var(--space-3xl);
 
   border: 1px solid var(--contacts-color);
 
@@ -1813,8 +1813,8 @@ iframe {
   top: 0;
   left: 0;
 
-  width: 3.125rem;
-  height: 3.125rem;
+  width: var(--space-4xl);
+  height: var(--space-4xl);
 
   fill: var(--dark);
   
@@ -2176,7 +2176,7 @@ iframe {
 
   width: calc(100% - var(--space-xl));
   height: 11.5rem;
-  padding: 3.2rem 6.8rem;
+  padding: var(--space-4xl) 6.8rem;
 
   background-color: var(--accent);
   background-image: url(../assets/img/newsletter.webp);
@@ -2205,7 +2205,7 @@ iframe {
 
 .sign-up-input {
   width: 100%;
-  height: 2.8rem;
+  height: var(--space-4xl);
 
   border: none;
   border-bottom: 1px solid var(--bg-color);
@@ -2218,7 +2218,7 @@ iframe {
 
 .sign-up-label {
   position: absolute;
-  top: var(--space-sm);
+  top: var(--space-lg);
   left: 0;
 
   color: rgba(255, 255, 255, 0.5);
@@ -2231,7 +2231,7 @@ iframe {
 
 .sign-up-form:has(input:focus) .sign-up-label,
 .sign-up-form:has(input:not(:placeholder-shown)) .sign-up-label {
-  transform: translateY(-1.875rem);
+  transform: translateY(-2rem);
 }
 
 .sign-up-input:focus {
@@ -2492,7 +2492,7 @@ iframe {
   align-items: start;
 
   margin-top: var(--space-xl);
-  margin-bottom: 3.125rem;
+  margin-bottom: var(--space-4xl);
 }
 
 .blog-article-content-text {
@@ -2612,7 +2612,7 @@ iframe {
   position: relative;
 
   width: fit-content;
-  margin-bottom: 3.125rem;
+  margin-bottom: var(--space-4xl);
 
   color: var(--dark);
   font-family: var(--font-accent);
@@ -2792,7 +2792,7 @@ iframe {
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 3.75rem;
-  row-gap: 2.19rem;
+  row-gap: var(--space-3xl);
 
   margin-bottom: var(--space-3xl);
   padding-right: var(--space-lg);
@@ -2837,7 +2837,7 @@ iframe {
   align-items: center;
 
   height: 100%;
-  padding: 10.625rem 2.81rem;
+  padding: 10.625rem var(--space-4xl);
 
   background-color: rgba(256, 256, 256, 0.7);
 
@@ -2873,7 +2873,7 @@ iframe {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 3.125rem;
+  gap: var(--space-4xl);
 
   width: 100%;
   margin-bottom: var(--space-3xl);
@@ -2887,7 +2887,8 @@ iframe {
   align-items: center;
   gap: var(--space-xs);
 
-  width: calc((100% - 3.75rem) / 3);
+  min-width: 10rem;
+  width: calc((100% - (var(--space-4xl) * 2)) / 3);
 }
 
 .modal-progress-step {
@@ -3292,8 +3293,8 @@ input[type="checkbox"] {
   }
 
   .crane {
-    bottom: -9.5rem;
-    width: 3.125rem;
+    bottom: -9.1rem;
+    width: var(--space-4xl);
     height: auto;
   }
 
@@ -3302,7 +3303,7 @@ input[type="checkbox"] {
   }
 
   .container-services {
-    gap: 3.44rem;
+    gap: var(--space-4xl);
   }
 
   .about-upper-block {
@@ -3437,7 +3438,7 @@ input[type="checkbox"] {
   }
 
   .status-title {
-    margin-bottom: 3.125rem;
+    margin-bottom: var(--space-4xl);
   }
 
   .projects-item-content {
@@ -3457,8 +3458,8 @@ input[type="checkbox"] {
   }
 
   .projects-item-button {
-    width: 3.125rem;
-    height: 3.125rem;
+    width: var(--space-4xl);
+    height: var(--space-4xl);
   }
 
   .swiper.swiper-3 {
@@ -3516,7 +3517,7 @@ input[type="checkbox"] {
   }
 
   .pricing-item {
-    padding: 2.75rem var(--space-2xl) 2.75rem;
+    padding: var(--space-3xl) var(--space-2xl);
   }
 
   .status-title {
@@ -3540,7 +3541,7 @@ input[type="checkbox"] {
   }
 
   .footer-lower > div:nth-child(1) {
-    margin-right: 3.125rem;
+    margin-right: var(--space-4xl);
   }
 }
 
@@ -3625,7 +3626,7 @@ input[type="checkbox"] {
   }
 
   .hero-container {
-    padding: 2.25rem var(--space-xl);
+    padding: var(--space-3xl) var(--space-xl);
   }
 
   .hero-wrapper {
@@ -3664,7 +3665,7 @@ input[type="checkbox"] {
   }
 
   .section-descr {
-    margin-bottom: 2.25rem;
+    margin-bottom: var(--space-xl);
   }
 
   .swiper-slide.swiper-first {
@@ -3696,10 +3697,6 @@ input[type="checkbox"] {
     margin-bottom: var(--space-4xl);
   }
 
-  .status-title {
-    margin-bottom: 2.75rem;
-  }
-
   .status-list {
     gap: var(--space-sm);
   }
@@ -3710,7 +3707,7 @@ input[type="checkbox"] {
   }
 
   .container.container-projects {
-    margin-bottom: 3.125rem;
+    margin-bottom: var(--space-4xl);
   }
 
   .projects-type {
@@ -3752,11 +3749,11 @@ input[type="checkbox"] {
 
   .testimonials-quote {
     width: 4.6rem;
-    height: 3.3rem;
+    height: var(--space-4xl);
   }
 
   .testimonials-photos {
-    margin-left: 3.1rem;
+    margin-left: var(--space-4xl);
   }
 
   .testimonials-hr {
@@ -3800,7 +3797,7 @@ input[type="checkbox"] {
 
   .pricing-item {
     width: calc((100% - (var(--space-sm) * 2)) / 3);
-    padding: 2.75rem var(--space-lg) 2.75rem;
+    padding: var(--space-3xl) var(--space-lg);
   }
 
   .price-line {
@@ -3847,8 +3844,6 @@ input[type="checkbox"] {
 
   .blog-list {
     gap: var(--space-xs);
-
-    margin-bottom: 2.25rem;
   }
 
   .blog-article {
@@ -3858,7 +3853,7 @@ input[type="checkbox"] {
 
   .sign-up-wrapper {
     height: fit-content;
-    padding: 2.81rem;
+    padding: var(--space-3xl);
   }
 
   .sign-up-cta {
@@ -3894,7 +3889,7 @@ input[type="checkbox"] {
   }
 
   .footer-lower > div:nth-child(3) {
-    margin-right: 1.875rem;
+    margin-right: var(--space-xl);
   }
 }
 
@@ -4016,7 +4011,7 @@ input[type="checkbox"] {
   }
 
   .testimonials-main {
-    margin-bottom: 2.3rem;
+    margin-bottom: var(--space-2xl);
   }
 
   .testimonials-main-left {
@@ -4040,7 +4035,7 @@ input[type="checkbox"] {
   }
 
   .testimonials-quote {
-    width: 3.4rem;
+    width: var(--space-4xl);
     height: var(--space-3xl);
   }
 
@@ -4073,7 +4068,7 @@ input[type="checkbox"] {
     justify-content: center;
     flex-wrap: wrap;
 
-    margin-bottom: 2.25rem;
+    margin-bottom: var(--space-3xl);
   }
 
   .team-text {
@@ -4096,9 +4091,9 @@ input[type="checkbox"] {
   }
 
   .pricing {
-    padding-top: 2.25rem;
-    padding-bottom: 2.25rem;
-    margin-bottom: 2.25rem;
+    padding-top: var(--space-2xl);
+    padding-bottom: var(--space-2xl);
+    margin-bottom: var(--space-3xl);
   }
 
   .pricing-container {
@@ -4316,7 +4311,7 @@ input[type="checkbox"] {
   }
 
   .hero {
-    padding-bottom: 3.125rem;
+    padding-bottom: var(--space-4xl);
   }
 
   .hero-container {
@@ -4324,12 +4319,12 @@ input[type="checkbox"] {
     gap: var(--space-lg);
 
     width: 100%;
-    padding: 0 var(--space-md) 3.125rem;
+    padding: 0 var(--space-md) var(--space-4xl);
   }
 
   .hero-text {
     width: 100%;
-    padding-top: 3.125rem;
+    padding-top: var(--space-4xl);
     padding-bottom: var(--space-2xl);
 
     text-align: center;
